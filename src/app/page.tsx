@@ -30,8 +30,8 @@ export default function Home() {
               <div className='flex flex-row'>
                   <div className='flex flex-col max-w-4xl gap-1'>
                       they/them
-                      <h1 className='text-lg font-bold text-gray-700'>Hi, I'm Ana!</h1>
-                      <h2>I’m a designer creating future-oriented products and experiences that drive business impact and transform how people interact with the world.</h2>
+                      <h1 className='text-lg font-bold text-gray-700'>Hi, I&apos;m Ana!</h1>
+                      <h2>I&apos;m a designer creating future-oriented products and experiences that drive business impact and transform how people interact with the world.</h2>
                   </div>
 
                   <div className='flex flex-1 text-right justify-end'>
