@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');*/
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,8 +19,10 @@
   }
 }
 
-body {
+body, p {
   color: rgb(var(--foreground-rgb));
+  font-size: 15px;
+  /*font-family: 'Inter', cursive;*/
   /*background: linear-gradient(
       to bottom,
       transparent,
@@ -25,4 +30,10 @@ body {
     )
     rgb(var(--background-start-rgb)
     );*/
+}
+
+h2{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 120%;
 }
