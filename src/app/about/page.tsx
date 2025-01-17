@@ -61,7 +61,7 @@ export default function Home() {
                               <a href='' className='bg-slate-700 text-gray-300 font-medium px-4 py-2 rounded-md hover:bg-slate-900'>tag 2</a>
                               <a href='' className='bg-slate-700 text-gray-300 font-medium px-4 py-2 rounded-md hover:bg-slate-900'>tag 3</a>
                             </nav>
-                            <a href='' className='font-bold text-2xl mt-5 text-slate-700'>Título do projeto</a>
+                            <a href='' className='font-bold text-2xl mt-5 text-slate-700'>Projeto 1</a>
                             descrição do projeto
                           </div>
 
