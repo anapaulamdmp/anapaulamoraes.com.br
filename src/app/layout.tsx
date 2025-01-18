@@ -1,17 +1,43 @@
 import './globals.css'
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { Manrope}  from 'next/font/google';
+import { Libre_Baskerville } from 'next/font/google';
+import { DM_Serif_Text } from 'next/font/google';
+import { Frank_Ruhl_Libre } from 'next/font/google';
+import { Caladea } from 'next/font/google';
+import { Shrikhand } from 'next/font/google';
+
 
 const inter = Inter({subsets: ['latin']});
 const manrope = Manrope({subsets: ['latin']});
 
-export const metadata: Metadata = {
+const libreBaskerville = Libre_Baskerville({
+  subsets: ['latin'], // Choose appropriate subsets for your project
+  weight: ['400', '700'], // Optional: Specify font weights (400 for normal, 700 for bold)
+});
+const dmSerifText = DM_Serif_Text({
+  subsets: ['latin'], // Add the appropriate subsets for your language
+  weight: '400',      // DM Serif Text typically only has regular (400) weight
+});
+const frankRuhlLibre = Frank_Ruhl_Libre({
+  subsets: ['latin'], // Choose subsets based on your language
+  weight: ['400', '500', '600', '700', '800'], // Optional: Specify weights (e.g., 400 for normal, 700 for bold)
+});
+const caladea = Caladea({
+  subsets: ['latin'],
+  weight: ['400', '700'], // You can specify the weights you need
+});
+const shrikhand = Shrikhand({
+  subsets: ['latin'],
+  weight: ['400'], // You can specify weights if needed, otherwise it defaults to 400
+});
+
+
+export const metadata = {
   title: 'Ana Paula Moraes',
   description: 'Experience designer',
-}
+};
 
 export default function RootLayout({
   children,

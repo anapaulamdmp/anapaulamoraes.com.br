@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -9,6 +9,15 @@ const config: Config = {
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        libre: ['"Libre Baskerville"', 'serif'],
+        dmSerifText: ['"DM Serif Text"', 'serif'],
+        frankRuhlLibre: ['"Frank Ruhl Libre"', 'serif'],
+        caladea: ['"Caladea"', 'serif'],
+        shrikhand: ['Shrikhand', 'cursive'],
+      },
+
+      screens: {
+        'md720': '720px', // Adding custom breakpoint
       },
 
       backgroundImage: {
