@@ -89,7 +89,7 @@ export default function Home() {
                         <a href='' className='bg-lime-100 text-gray-600 font-bold px-3 py-2 rounded-md hover:bg-lime-200 text-sm'>Interaction</a>
                       </nav>
                       {/* Project Title */}
-                      <a href='' className='font-bold text-2xl mt-5 text-slate-700 max-w-lg mb-6'>Banco do Brasil's Value Chain: Reshaping Data Visualization and Enchanting Audience</a>
+                      <a href='' className='font-bold text-2xl mt-5 text-slate-700 max-w-lg mb-6'>Banco do Brasil&apos;s Value Chain: Reshaping Data Visualization and Enchanting Audience</a>
                       <span></span>
                       {/* CTA See Project */}
                       <button className='bg-slate-700 rounded-lg px-6 py-4 inline-block mt-4 hover:bg-slate-900 w-fit text-gray-200'>View project</button>
