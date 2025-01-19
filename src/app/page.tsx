@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             
             {/* Vertical navigation (hidden on mobile) */}
-            <nav className={`space-y-4 my-auto ${menuOpen ? 'block' : 'hidden'} md720:block absolute top-0 left-0 w-ful md720:relative md720:flex md720:flex-col md720:w-auto md720:h-auto md720:top-auto`}>                
+            <nav className={`space-y-4 my-auto ${menuOpen ? 'block' : 'hidden'} absolute top-0 left-0 w-ful md720:relative md720:flex md720:flex-col md720:w-auto md720:h-auto md720:top-auto`}>                
               <a href='#works' className='flex items-start text-blue-600 font-bold hover:text-blue-700'>
                 My work
               </a>
