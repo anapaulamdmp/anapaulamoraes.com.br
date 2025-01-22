@@ -8,12 +8,12 @@ export default function Home() {
   return (
       <div className='h-screen flex flex-col w-screen'>
 
-        <div className='flex flex-col md720:flex-row flex-1 h-screen relative overflow-auto max-h-screen'>
-          <div className='flex flex-1 flex-row md720:flex-col sticky max-w-max pl-20 pr-28 h-auto md720:h-screen top-0 md720:self-center'>
+        <div className='flex flex-col xl:flex-row flex-1 h-screen relative overflow-auto max-h-screen'>
+          <div className='flex flex-1 flex-row xl:flex-col sticky max-w-max pl-20 pr-28 h-auto xl:h-screen top-0 xl:self-center'>
             
             {/* Navigation */}
             {/* Hamburger button for mobile */}
-            <div className='md720:hidden sticky top-4 left-4 z-10 w-full'>
+            <div className='xl:hidden sticky top-4 left-4 z-10 w-full'>
               <button
                 className='text-xl text-gray-600'
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             
             {/* Vertical navigation (hidden on mobile) */}
-            <nav className={`space-y-4 my-auto ${menuOpen ? 'block' : 'hidden'} absolute top-0 left-0 w-ful md720:relative md720:flex md720:flex-col md720:w-auto md720:h-auto md720:top-auto`}>                
+            <nav className={`space-y-4 my-auto ${menuOpen ? 'block' : 'hidden'} absolute top-0 left-0 w-ful xl:relative xl:flex xl:flex-col xl:w-auto xl:h-auto xl:top-auto`}>                
               <a href='#works' className='flex items-start text-blue-600 font-bold hover:text-blue-700'>
                 My work
               </a>
