@@ -52,13 +52,13 @@ export default function Home() {
                   {/* Description */}
                   <div className='flex flex-col max-w-4xl gap-1 order-2 xl:order-1'>
                       <h1 className='text-xl font-medium text-gray-600 mb-6'>Hi, I&apos;m Ana!</h1>
-                      <h2 className='font-caladea font-bold text-gray-900'>I&apos;m a designer creating future-oriented products and experiences that drive business impact and transform how people interact with the world.</h2>
+                      <h2 className='font-caladea font-bold text-gray-900 md720:text-4xl text-3xl'>I&apos;m a designer creating future-oriented products and experiences that drive business impact and transform how people interact with the world.</h2>
                   </div>
 
                   {/* Profile Picture (Full width on mobile, fixed size on larger screens)*/}
                   <div className='flex w-full xl:w-1/3 justify-start xl:justify-end mb-8 xl:mb-0 order-1 xl:order-2 xl:ml-24'>
                       <div className='flex w-20 h-20 justify-end'>
-                        <Image src='./images/Profile_Picture.png' alt='Profile' className='w-20 h-20 rounded-full justify-end' />
+                        <Image src='/images/Profile_Picture.png' alt='Profile' width={80} height={80} className='w-20 h-20 rounded-full justify-end' />
                         <div className='flex w-5 h-5 rounded-full border-white border-2 bg-green-500 self-end relative z-50'/>
                       </div>
                   </div>
@@ -78,7 +78,7 @@ export default function Home() {
               <div className='grid grid-cols-1 p-12 gap-12'>
 
                 <div className='flex flex-row gap-10'>
-                  <Image src='/' className='bg-blue-600 w-5/12 h-80 rounded-lg' alt='Project Thumbnail' />
+                  <Image src='/' className='bg-blue-600 w-5/12 h-80 rounded-lg' width={80} height={80} alt='Project Thumbnail' />
 
                   <div className='flex flex-col flex-1'>
                     <div className='flex flex-col'>
