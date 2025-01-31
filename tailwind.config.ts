@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss';
 
+import { fontFamily } from 'tailwindcss/defaultTheme';
+
 const config: Config = {
   content: [
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,13 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        manrope: ['Manrope', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
-        libre: ['"Libre Baskerville"', 'serif'],
-        dmSerifText: ['"DM Serif Text"', 'serif'],
-        frankRuhlLibre: ['"Frank Ruhl Libre"', 'serif'],
-        caladea: ['"Caladea"', 'serif'],
-        shrikhand: ['Shrikhand', 'cursive'],
+        libreBaskerville: ['var(--font-libre-baskerville)', ...fontFamily.serif],
+        dmSerifText: ['var(--font-dm-serif-text)', ...fontFamily.serif],
+        frankRuhlLibre: ['var(--font-frank-ruhl-libre)', ...fontFamily.serif],
+        caladea: ['var(--font-caladea)', ...fontFamily.serif],
+        dmSans: ['var(--font-dmSans)', ...fontFamily.serif],
+        shrikhand: ['var(--font-shrikhand)', ...fontFamily.sans], // Shrikhand é mais decorativa, mas pode ser ajustada
       },
 
       screens: {
