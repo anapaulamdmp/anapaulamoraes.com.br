@@ -238,7 +238,7 @@ export default function ProjectPage() {
         <section id="outcome" className='mb-8 mt-14'>
           <h2 className="text-2xl font-bold mb-8">Outcome</h2>
           <p className="text-slate-950 mb-4">
-              As a consequence of the design process, the initial tool went through a full-on makeover, emphasizing in <b>making the complex phenomenon of Brazil's economic dynamics accessible for everyone and transforming the way people interact with information.</b> 
+              As a consequence of the design process, the initial tool went through a full-on makeover, emphasizing in <b>making the complex phenomenon of Brazil&apos;s economic dynamics accessible for everyone and transforming the way people interact with information.</b> 
           </p>
           <p className="text-slate-950 mb-4">
           The project highlights how technology can enhance decision-making by providing clearer insights into economic transactions, bridging the gap between a complex world phenomenon and the general public. By visualizing complex data, it empowers users to better understand economic dynamics and relationships, ultimately leading to more informed decision-making and bringing value not only for Banco do Brasil, but potentially to the whole economic ecosystem.
@@ -296,7 +296,7 @@ export default function ProjectPage() {
             Engagement Beyond Banking
             </h4>
             <p className='text-gray-800'>
-            By presenting the tool at innovation and technology conferences, the project reached a broader audience. This initiative reinforces Banco do Brasil's authority in digital transformation and reputation as a future-focused institution.
+            By presenting the tool at innovation and technology conferences, the project reached a broader audience. This initiative reinforces Banco do Brasil&apos;s authority in digital transformation and reputation as a future-focused institution.
             </p>
           </div>
           {/*Results 04*/} 
