@@ -18,7 +18,7 @@ export default function ProjectPage() {
         </div>
         
         {/*Título do Projeto*/} 
-        <h1 className="mt-4 md720:mt-12 text-2xl md720:text-3xl font-semibold text-center mb-14 text-slate-950">Banco do Brasil's Value Chain: Reshaping data visualization for easier readings and enchanting audience</h1>
+        <h1 className="mt-4 md720:mt-12 text-2xl md720:text-3xl font-semibold text-center mb-14 text-slate-950">Banco do Brasil&apos;s Value Chain: Reshaping data visualization for easier readings and enchanting audience</h1>
         
         {/*Cover Image*/} 
         <img
@@ -32,7 +32,7 @@ export default function ProjectPage() {
             Banco do Brasil is the <b>oldest and one of the biggest financial institutions in Latin America</b> and tracks economic activity relationships through a dataset extracted from CNAE (National Classification of Economic Activities) database. However, visualizing and interpreting this data proved challenging due to its complexity.
         </p>
         <p className="text-slate-950 mb-4">
-            Banco do Brasil's Value Chain was created to <b>capture the audience's attention by showcasing innovation and simplifying complex data. </b>With the goal of bringing the project to the broader public through technology and innovation conferences, the platform uses advanced visual tools to transform intricate financial data into an easily understandable and interactive experience. By organizing data based on the CNAE, it allows users to explore connections between sectors like agribusiness, education, and healthcare, making complex economic relationships more accessible and engaging.
+            Banco do Brasil&apos;s Value Chain was created to <b>capture the audience&apos;s attention by showcasing innovation and simplifying complex data. </b>With the goal of bringing the project to the broader public through technology and innovation conferences, the platform uses advanced visual tools to transform intricate financial data into an easily understandable and interactive experience. By organizing data based on the CNAE, it allows users to explore connections between sectors like agribusiness, education, and healthcare, making complex economic relationships more accessible and engaging.
         </p>
 
 
@@ -53,7 +53,7 @@ export default function ProjectPage() {
           <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
             <h4 className='font-bold text-lg'>Organize the data</h4>
             <p>
-                The current solution for the visualization of the value chain's data was complex, unordered and had a messy display of informations          
+                The current solution for the visualization of the value chain&apos;s data was complex, unordered and had a messy display of informations          
             </p>
           </div>
           {/*Destaque 03 - Enchant the audience*/} 
@@ -358,7 +358,7 @@ export default function ProjectPage() {
             <div className='flex flex-col md720:flex-row w-full gap-4 pt-4'>
                 {/* Left Column (1/3 on large screens) */}
                 <div className='w-full mt-9 md720:mt-0 md720:w-1/3 rounded-xl'>
-                    <h3 className='text-2xl font-semibold md720:font-normal text-gray-900'>Let's connect</h3>
+                    <h3 className='text-2xl font-semibold md720:font-normal text-gray-900'>Let&apos;s connect</h3>
                 </div>
 
                 {/* Right Column (2/3 on large screens) */}
