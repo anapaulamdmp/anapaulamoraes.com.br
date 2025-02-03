@@ -194,7 +194,7 @@ export default function Home() {
                     </div>
 
                 </div>
-                
+
 
                 {/* Copyrights */}
                 <div className='flex flex-col md720:flex-row w-full gap-4 pt-4 border-t-[1px] mt-10'>
