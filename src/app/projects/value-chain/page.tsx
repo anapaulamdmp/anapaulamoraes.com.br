@@ -1,30 +1,30 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ArrowLeft, CornerDownLeft } from 'lucide-react';
+import { SquareArrowOutUpRight } from 'lucide-react';
 
 export default function ProjectPage() {
   return (
-
-    
-
+    <>
       <div className="max-w-[1024px] mx-auto p-6 rounded-2xl px-5 md720:px-6 mt-7 md720:mt-20 text-slate-950 font-dmSans">
         {/* Fixed breadcrumb menu */}
-        <div className="fixed top-0 left-0 w-full pt-10 pb-8 z-10 text-center bg-color ">
+        <div className="fixed top-0 left-0 w-full pt-10 pb-8 z-10 text-center bg-color align-middle ">
           <div className="max-w-[1024px] mx-auto px-6">
             <p className="text-lg md720:text-2xl font-medium">
-              <Link href="/" className="text-gray-400 hover:text-gray-400">Ana /</Link> Value Chain
+              <Link href="/" className="text-gray-400 hover:text-gray-500"><CornerDownLeft strokeWidth={3} className='inline w-4 h-4 mr-2'/>Ana /</Link> Value Chain
             </p>
           </div>
         </div>
         
         {/*Título do Projeto*/} 
-        <h1 className="mt-4 md720:mt-12 text-2xl md720:text-3xl font-semibold text-center mb-14 text-slate-950">Banco do Brasil&apos;s Value Chain: Reshaping data visualization for easier readings and enchanting audience</h1>
+        <h1 className="mt-12 md720:text-4xl text-2xl font-medium text-center mb-8 md720:mb-14 text-slate-900 leading-snug md720:leading-snug">Banco do Brasil&apos;s Value Chain: Reshaping data visualization for easier readings and enchanting audience</h1>
         
         {/*Cover Image*/} 
         <img
                   src="/value-chain/images/Cover.png"
                   alt="Cover"
-                  className="w-full aspect-video object-cover mb-14 rounded-2xl sm:w-[105%] md:w-[115%] lg:w-[150%]" />
+                  className="w-full aspect-[16/10] object-cover mb-8 md720:mb-14 rounded-2xl sm:w-[105%] md:w-[115%] lg:w-[150%]" />
 
 
         {/*SEÇÃO INTRODUÇÃO*/} 
@@ -37,8 +37,8 @@ export default function ProjectPage() {
 
 
         {/*SEÇÃO GOALS*/} 
-        <section id="goals" className="mb-8 mt-14">
-          <h2 className="text-2xl font-bold mb-8">Goals</h2>
+        <section id="goals" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">Goals</h2>
 
           {/*Destaque 01 - Redesign the experience*/} 
           <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
@@ -74,26 +74,26 @@ export default function ProjectPage() {
         </section>
 
         {/*SEÇÃO AUDIT AND INSIGHTS*/} 
-        <section id="audit-insights" className="mb-8 mt-14">
-          <h2 className="text-2xl font-bold mb-8">
+        <section id="audit-insights" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">
             Audit and Insights
           </h2>
           {/*Conteúdo*/} 
           
           {/*Imagem com descrição*/} 
-          <div className=" mb-12 grid justify-items-center">
+          <div className="mb-8 md720:mb-12 grid justify-items-center">
             {/*Imagem - Dashboard original*/} 
               <img
                 src="/value-chain/images/Audit - Old Dashboard.png"
                 alt="Old dashboard showing connections and transactions between CNAE nodes"
-                className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+                className="w-full object-contain md720:mt-6 rounded-2xl mb-4 w-full big-image" />
          
-            <p className="text-sm text-gray-500 text-center mt-2 block italic mb-8">
+            <p className="text-sm text-gray-500 text-center mt-2 block italic mb-2 md720:mb-8">
                 Old dashboard showing connections and transactions between CNAE nodes
             </p>
           </div>
           
-            <p className="text-slate-950 mb-8">
+            <p className="text-slate-950 mb-2 md720:mb-8">
               The viewer was characterized by a <b>complex interface</b> and a <b>cluttered design,</b> making it challenging to navigate and understand what was going on at each viewer section. 
             </p>           
 
@@ -102,20 +102,20 @@ export default function ProjectPage() {
             <img
                 src="/value-chain/images/Audit - Table of Contents CNAE.png"
                 alt="Overview of the delimited table of contents for the project"
-                className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+                className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
               <p className="text-sm text-gray-500 text-center block italic mb-6">
               Overview of the delimited table of contents for the project
               </p>
             </div>
-            <div className='justify-center flex mb-8'><hr/></div>
+            <div className='justify-center flex mb-4 md720:mb-8'><hr/></div>
 
           {/*Imagem - Messy Node Connections*/} 
-          <div className=" mb-12 grid justify-items-center">
+          <div className="mb-8 md720:mb-12 grid justify-items-center">
             <img
               src="/value-chain/images/Audit - Untreated nodes.png"
               alt="Initial Visualization of Node Connections Without Data Processing"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
-            <p className="text-sm text-gray-500 text-center block italic mb-6">
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+            <p className="text-sm text-gray-500 text-center block italic mb-2 md720:mb-6">
               Initial Visualization of Node Connections Without Data Processing
             </p>
           </div>
@@ -127,8 +127,8 @@ export default function ProjectPage() {
         </section>
 
         {/*SEÇÃO DESIGN STRATEGY*/} 
-        <section id="design-strategy" className="mb-8 mt-14">
-          <h2 className="text-2xl font-bold mb-8">Design Strategy</h2>
+        <section id="design-strategy" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">Design Strategy</h2>
           
           {/*Estratégia 01 - Make it simpler*/} 
           <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
@@ -161,8 +161,8 @@ export default function ProjectPage() {
         </section>
 
         {/*SEÇÃO EXPLORATIONS*/} 
-        <section id="explorations" className="mb-8 mt-14">
-          <h2 className="text-2xl font-bold mb-8">Explorations</h2>
+        <section id="explorations" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">Explorations</h2>
           <p className="text-slate-950 mb-6">
             As the solution works with real-time filtering to have a dynamic and immediate view of the relationships within and across economic sectors, the explorations were focused on <b>empowering all users to effortlessly view, explore and interpretate these chains.</b>
           </p>
@@ -176,33 +176,33 @@ export default function ProjectPage() {
           </p>
           
           {/*Imagem - Overview Explorations*/}
-          <div className=" mb-12 grid justify-items-center">
+          <div className=" mb-8 md720:mb-12 grid justify-items-center">
             <img
               src="/value-chain/images/Explorations - Explorations on Figma.png"
               alt="Overview of initial explorations for filtering and visualization of data"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Overview of initial explorations for filtering and visualization of data
             </p>
           </div>
-          <div className='justify-center flex mb-12'><hr/></div>
+          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           {/*Imagem - Information Architecture*/}
-          <div className=" mb-12 grid justify-items-center">
+          <div className=" mb-8 md720:mb-12 grid justify-items-center">
             <img
               src="/value-chain/images/Explorations - UI Description - Before and after.png"
               alt="Information Architecture of refined UI over translated data - Before and After"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Information Architecture of refined UI over translated data
             </p>
           </div>
-          <div className='justify-center flex mb-12'><hr/></div>
+          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
 
         </section>
 
         {/*SEÇÃO Digital Meets Analogical*/} 
-        <section id="digital-meets-analogical" className='mb-8 mt-14'>
-          <h2 className="text-2xl font-bold mb-8">Digital Meets Analogical</h2>
+        <section id="digital-meets-analogical" className='mb-6 md720:mb-8 mt-10 md720:mt-14'>
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">Digital Meets Analogical</h2>
           <p className="text-slate-950 mb-4">
             Beyond the digital world, there was the challenge to <b>spark the curiosity enough to make people want to interact with the experience</b> during the showcasing of the solution. 
           </p>
@@ -235,8 +235,8 @@ export default function ProjectPage() {
         </section>
         
         {/*SEÇÃO OUTCOME*/} 
-        <section id="outcome" className='mb-8 mt-14'>
-          <h2 className="text-2xl font-bold mb-8">Outcome</h2>
+        <section id="outcome" className='mb-6 md720:mb-8 mt-10 md720:mt-14'>
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">Outcome</h2>
           <p className="text-slate-950 mb-4">
               As a consequence of the design process, the initial tool went through a full-on makeover, emphasizing in <b>making the complex phenomenon of Brazil&apos;s economic dynamics accessible for everyone and transforming the way people interact with information.</b> 
           </p>
@@ -249,18 +249,18 @@ export default function ProjectPage() {
             <img
               src="/value-chain/images/Outcome - BBDW.png"
               alt="Prototype RFID objects filtering category visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Prototype of RFID objects filtering category visualization
             </p>
           </div>
-          <div className='justify-center flex mb-12'><hr/></div>
+          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           {/*Imagem - Stacking view*/}
-          <div className=" mb-12 grid justify-items-center">
+          <div className=" mb-8 md720:mb-12 grid justify-items-center">
             <img
               src="/value-chain/images/Outcome - Stacking.gif"
               alt="Stacked filtering visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Stacked filtering visualization
             </p>
@@ -269,8 +269,8 @@ export default function ProjectPage() {
 
         </section>
         {/*SEÇÃO RESULTS*/} 
-        <section id="results" className='mb-8 mt-14'>
-          <h2 className="text-2xl font-bold mb-8">Results</h2>
+        <section id="results" className='mb-6 md720:mb-8 mt-10 md720:mt-14'>
+          <h2 className="text-2xl font-bold mb-6 md720:mb-8">Results</h2>
           
           {/*Results 01*/} 
           <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
@@ -314,80 +314,108 @@ export default function ProjectPage() {
             <img
               src="/value-chain/images/Results - Start Screen.png"
               alt="Start Screen"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
           </div>
-          <div className='justify-center flex mb-12'><hr/></div>
+          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           {/*Imagem Resultado - 2*/}
           <div className=" mb-4 grid justify-items-center">
             <img
               src="/value-chain/images/Results - Onboarding.gif"
               alt="Onboarding Screens"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
           </div>
-          <div className='justify-center flex mb-12'><hr/></div>
+          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           {/*Imagem Resultado - 3*/}
           <div className=" mb-4 grid justify-items-center">
             <img
               src="/value-chain/images/Results - Node View.gif"
               alt="Node visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 sm:w-[105%] md:w-[120%] lg:w-[120%] big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
           </div>
-          <div className='justify-center flex mb-12'><hr/></div>
+          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           
         </section>
-
-        {/* New Two-Row Section with Columns */}
-        <section className='flex flex-col w-full px-6 md720:gap-16 mt-16 md720:mt-32 max-920 md720:max-w-[1024px] md720:px-0'>
-
-            {/* First Row
-            <div className='flex flex-col md720:flex-row w-full gap-4 pt-8 border-t-[1px]'>
-                
-                <div className='w-full md720:w-1/3  rounded-xl'>
-                    <h3 className='text-3xl font-semibold text-gray-900'>Nice to meet you.</h3>
-                </div>
-
-                
-                <div className='w-full md720:w-2/3 rounded-xl'>
-                    <p className='text-gray-900 text-2xl leading-relaxed'>
-                        I’m Ana Paula, a brazilian designer located in 📌 Curitiba - PR. I’m continuously looking for fun stuff to explore and work on, feel free to hit me up anytime.
-                    </p>
-                </div>
-            </div> */}
-
-            {/* Let's Connect */}
-            <div className='flex flex-col md720:flex-row w-full gap-4 pt-4'>
-                {/* Left Column (1/3 on large screens) */}
-                <div className='w-full mt-9 md720:mt-0 md720:w-1/3 rounded-xl'>
-                    <h3 className='text-2xl font-semibold md720:font-normal text-gray-900'>Let&apos;s connect</h3>
-                </div>
-
-                {/* Right Column (2/3 on large screens) */}
-                <div className='w-full md720:w-2/3 rounded-xl flex flex-col'>
-                    <div className='flex flex-row w-full py-6 border-t-[1px]'>
-                      <a target='_blank' href='https://www.linkedin.com/in/anapaulamoraesdsgn/' className='text-gray-900 text-lg leading-relaxed'>
-                          Linkedin
-                      </a>
-                    </div>
-                    <div className='flex flex-row w-full py-6 border-t-[1px] md720:border-y-[1px]'>
-                      <a target='_blank' href='https://instagram.com/paulamdmp' className='text-gray-900 text-lg leading-relaxed'>
-                          Instagram
-                      </a>
-                    </div>
-                    
-                </div>
-
-            </div>
-
-
-            {/* Copyrights */}
-            <div className='flex flex-col md720:flex-row w-full gap-4 pt-4 border-t-[1px] mt-10'>
-                <div className='w-full rounded-xl pt-8 pb-12'>
-                    <p className='text-sm font-semibold text-gray-800'>© 2025 All rights reserved</p>
-                </div>
-            </div>
-
-            </section>
-
       </div>
+      
+
+      {/* Footer */}
+      <section className='w-full bg-slate-500 bg-opacity-5 pt-10 md720:pt-12 px-6 lg:px-0 mt-8 md720:mt-10'>
+        <div className="max-w-[1024px] mx-auto flex flex-col md720:gap-16">
+          
+          {/* First Row */}
+          <div className='flex flex-col md720:flex-row w-full gap-4 pt-4 md720:pt-8'>
+                {/* Left Column (1/3 on large screens) */}
+                <div className='w-full md720:w-1/3  rounded-xl'>
+                    <a href='/' className='text-lg md720:text-xl font-semibold text-gray-900 hover:text-gray-500 flex items-center'><ArrowLeft className='inline mr-2 w-6 h-6' strokeWidth={2}/>Go Back Home</a>
+                </div>
+
+          </div>
+
+
+          {/* Projects */}
+          <div className='flex flex-col md720:flex-row w-full gap-4 pt-8'>
+                    {/* Left Column (1/3 on large screens) */}
+                    <div className='w-full md720:w-1/3  rounded-xl'>
+                        <h3 className='text-2xl md720:text-3xl font-semibold text-gray-900'>See more</h3>
+                    </div>
+
+                    {/* Right Column (2/3 on large screens) */}
+                    <div className='w-full md720:w-2/3 rounded-xl overflow-y-auto overflow-y-visible overflow-x-visible '>
+                      <div className='grid grid-flow-col w-full gap-4'>
+                         {/* Projects */}
+                        <div className='transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-green-700 w-full max-w-1/2 shadow-lg border-l-8 border-green-700 border-opacity-25 flex flex-row bg-color-lightgreen align-bottom justify-end rounded-md'>
+                          <a href='/projects/bb-event-transformation' className=''>
+                            <Image src='/bb-event-transformation/images/Cover.png' className='min-h-52 w-auto rounded-md md720:rounded-xl aspect-[4/5] object-contain hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
+                            <div className='align-bottom w-60 max-w-64 px-4 h-24 font-bold leading-snug bottom-0'>
+                              Transforming Event Engagement with Customizable Solutions
+                            </div>
+                          </a>
+                        </div>
+                         {/* Projects */}
+                        <div className='transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-orange-700 w-full max-w-1/2 shadow-lg border-l-8 border-orange-600 border-opacity-25 flex flex-row bg-color-lightorange align-bottom justify-end rounded-md'>
+                          <a href='/projects/rbd-21' className=''>
+                            <Image src='/rbd-21/images/Cover.png' className='min-h-52 w-auto rounded-md md720:rounded-xl aspect-[4/5] object-contain hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
+                            <div className='align-bottom w-60 max-w-64 px-4 h-24 font-bold leading-snug bottom-0'>
+                              Mapping Brazilian Design in 2021
+                            </div>
+                          </a>
+                        </div>
+                      
+                      </div>
+                    </div>
+          </div>
+
+          {/* Let's Connect */}
+          <div className='flex flex-col md720:flex-row w-full gap-4 pt-4'>
+              <div className='w-full mt-9 md720:mt-0 md720:w-1/3 rounded-xl'>
+                  <h3 className='text-xl md720:text-2xl font-semibold md720:font-normal text-gray-900'>Let&apos;s connect</h3>
+              </div>
+
+              <div className='w-full md720:w-2/3 rounded-xl flex flex-col'>
+                  <a target="_blank" href="https://www.linkedin.com/in/anapaulamoraesdsgn/" className="flex flex-row w-full py-4 md720:py-6 border-t-[1px] justify-between items-center text-gray-900 text-base md720:text-lg leading-relaxed hover:text-gray-500 transition">
+                      <span>Linkedin</span>
+                      <SquareArrowOutUpRight className="w-5 h-5" />
+                  </a>
+                  <a target="_blank" href="https://instagram.com/paulamdmp" className="flex flex-row w-full py-4 md720:py-6 border-t-[1px] md720:border-y-[1px] justify-between items-center text-gray-900 text-base md720:text-lg leading-relaxed hover:text-gray-500 transition">
+                      <span>Instagram</span>
+                      <SquareArrowOutUpRight className="w-5 h-5" />
+                  </a>
+              </div>
+          </div>
+
+
+
+          {/* Copyrights */}
+          <div className='flex flex-col md720:flex-row w-full gap-4 pt-4 border-t-[1px] mt-0 md720:mt-10'>
+              <div className='w-full rounded-xl pt-4 md720:pt-8 pb-12'>
+                  <p className='text-sm font-semibold text-gray-800'>© 2025 All rights reserved</p>
+              </div>
+          </div>
+
+        </div>
+      </section>
+
+    </>
+
   )
 }
