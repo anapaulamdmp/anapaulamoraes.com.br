@@ -20,6 +20,7 @@
   }
 }
 
+
 .big-image{
   max-width: none;
 }
@@ -49,7 +50,7 @@
 }
 
 body, p {
-  color: rgb(var(--foreground-rgb));
+  color: #020617;
   font-size: 18px;
   line-height: 180%;
   /*font-family: 'Inter', cursive;*/
