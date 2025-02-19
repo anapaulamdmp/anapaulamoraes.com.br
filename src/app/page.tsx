@@ -42,7 +42,7 @@ export default function Home() {
                   {/* Description */}
                   <div className='flex flex-col max-w-[920px] order-2 xl:order-1'>
                       <h1 className='text-xl md729:text-2xl font-medium text-gray-800 mb-4 xl:mb-10'>Hello! &#x1F44B;</h1>
-                      <h2 className={`font-dmSans leading-snug md720:leading-snug font-semibold text-slate-500 md720:text-4xl text-2xl transition-all duration-[800ms]`}>
+                      <h2 className={`font-dmSans leading-snug md720:leading-snug font-normal text-slate-500 md720:text-4xl text-2xl transition-all duration-[800ms]`}>
                         <span className='text-slate-900 font-bold'>I&apos;m Ana</span> — a designer creating future-oriented experiences that drive business impact and transform how people interact with the world.
                       </h2>
                   </div>
@@ -108,7 +108,7 @@ export default function Home() {
                     </div>
 
                     <a
-                      href='/projects/value-chain'
+                      href='/projects/bb-event-transformation'
                       className='flex flex-col flex-1 w-full py-4 md720:py-8 rounded-b-2xl font-normal transition-all duration-[500ms]'
                     >
                       {/* Title and Button Container */}
@@ -128,19 +128,19 @@ export default function Home() {
                       <a href='/projects/rbd-21'>
                         <Image src='/rbd-21/images/Cover.png' className='hidden md720:block w-full rounded-2xl aspect-[16/10] object-cover hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
                       </a>
-                      <a href='/projects/value-chain'>
+                      <a href='/projects/rbd-21'>
                         <Image src='/rbd-21/images/Cover.png' className='md720:hidden w-full rounded-lg aspect-[4/3] object-cover hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
                       </a>
                     </div>
 
                     <a
-                      href='/projects/value-chain'
+                      href='/projects/rbd-21'
                       className='flex flex-col flex-1 w-full py-4 md720:py-8 rounded-b-2xl font-normal transition-all duration-[500ms]'
                     >
                       {/* Title and Button Container */}
                       <div className='grid gap-1 md720:gap-0 grid-cols-1 md720:grid-cols-3 items-center align-middle h-full font-semibold'>
                             {/* Project Title (Spanning 2 columns) */}
-                              <span className='text-sm text-blue-700'>2024</span>
+                              <span className='text-sm text-blue-700'>2023</span>
                               <span className='max-w-[695px] col-span-2 md720:col-span-3 '>Mapping Brazilian Design in 2021</span>
                       
 
@@ -169,7 +169,7 @@ export default function Home() {
                     {/* Right Column (2/3 on large screens) */}
                     <div className='w-full md720:w-2/3 rounded-xl'>
                         <p className='text-gray-900 text-lg md720:text-2xl leading-relaxed'>
-                            I&apos;m Ana Paula, a brazilian designer based in 📌 Curitiba - PR. I&apos;m continuously looking for fun stuff to explore and work on, feel free to contact me anytime.
+                            I&apos;m a brazilian designer based in 📌 Curitiba - PR. I&apos;m continuously looking for cool opportunities to explore and work on. If you feel like we should work together, send me a message!
                         </p>
                     </div>
                 </div>

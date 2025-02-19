@@ -1,8 +1,9 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowLeft, CornerDownLeft } from 'lucide-react';
+import { ArrowLeft, CornerDownLeft, SquareArrowUpRight } from 'lucide-react';
 import { SquareArrowOutUpRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 
 export default function ProjectPage() {
   return (
@@ -339,7 +340,7 @@ export default function ProjectPage() {
       
 
       {/* Footer */}
-      <section className='w-full bg-slate-500 bg-opacity-5 pt-10 md720:pt-12 px-6 lg:px-0 mt-8 md720:mt-10'>
+      <section className=' border-t-[1px] w-full bg-slate-500 bg-opacity-5 pt-10 md720:pt-12 px-6 lg:px-0 mt-8 md720:mt-10'>
         <div className="max-w-[1024px] mx-auto flex flex-col md720:gap-16">
           
           {/* First Row */}
@@ -360,30 +361,49 @@ export default function ProjectPage() {
                     </div>
 
                     {/* Right Column (2/3 on large screens) */}
-                    <div className='w-full md720:w-2/3 rounded-xl overflow-y-auto overflow-y-visible overflow-x-visible '>
-                      <div className='grid grid-flow-col w-full gap-4'>
-                         {/* Projects */}
-                        <div className='transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-green-700 w-full max-w-1/2 shadow-lg border-l-8 border-green-700 border-opacity-25 flex flex-row bg-color-lightgreen align-bottom justify-end rounded-md'>
-                          <a href='/projects/bb-event-transformation' className=''>
-                            <Image src='/bb-event-transformation/images/Cover.png' className='min-h-52 w-auto rounded-md md720:rounded-xl aspect-[4/5] object-contain hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
-                            <div className='align-bottom w-60 max-w-64 px-4 h-24 font-bold leading-snug bottom-0'>
-                              Transforming Event Engagement with Customizable Solutions
-                            </div>
-                          </a>
+                      <div className="w-full md720:w-2/3 rounded-xl overflow-y-visible overflow-x-visible scrollbar-hide">
+                        <div className="grid grid-cols-2 gap-4">
+                          {/* Project 1 */}
+                          <div className="transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-green-700 shadow-lg border-l-8 border-green-700 border-opacity-25 bg-color-lightgreen rounded-md">
+                            <a href="/projects/bb-event-transformation">
+                              <img
+                                src="/bb-event-transformation/images/Cover.png"
+                                className="w-full rounded-md md720:rounded-xl object-contain hover:opacity-80 transition-all duration-[500ms]"
+                                width={80}
+                                height={80}
+                                alt="Project Thumbnail"
+                              />
+                              <div className="w-full px-4 h-auto pb-4 text-lg md720:text-xl font-bold leading-snug">
+                                Transforming Event Engagement with Customizable Solutions
+                              </div>
+                            </a>
+                          </div>
+
+                          {/* Project 2 */}
+                          <div className="transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-orange-700 shadow-lg border-l-8 border-orange-600 border-opacity-25 bg-color-lightorange rounded-md">
+                            <a href="/projects/rbd-21">
+                              <img
+                                src="/rbd-21/images/Cover.png"
+                                className="w-full rounded-md md720:rounded-xl object-contain hover:opacity-80 transition-all duration-[500ms]"
+                                width={80}
+                                height={80}
+                                alt="Project Thumbnail"
+                              />
+                              <div className="w-full px-4 h-auto pb-4 text-lg md720:text-xl font-bold leading-snug">
+                                Mapping Brazilian Design in 2021 
+                              </div>
+                            </a>
+                          </div>
                         </div>
-                         {/* Projects */}
-                        <div className='transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-orange-700 w-full max-w-1/2 shadow-lg border-l-8 border-orange-600 border-opacity-25 flex flex-row bg-color-lightorange align-bottom justify-end rounded-md'>
-                          <a href='/projects/rbd-21' className=''>
-                            <Image src='/rbd-21/images/Cover.png' className='min-h-52 w-auto rounded-md md720:rounded-xl aspect-[4/5] object-contain hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
-                            <div className='align-bottom w-60 max-w-64 px-4 h-24 font-bold leading-snug bottom-0'>
-                              Mapping Brazilian Design in 2021
-                            </div>
-                          </a>
-                        </div>
-                      
                       </div>
-                    </div>
+
+
+                    
           </div>
+
+
+          
+
 
           {/* Let's Connect */}
           <div className='flex flex-col md720:flex-row w-full gap-4 pt-4'>
