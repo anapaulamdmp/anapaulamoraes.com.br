@@ -42,8 +42,8 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Goals</h2>
 
           {/*Destaque 01 - Redesign the experience*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
               Redesign the experience
             </h4>
             <p>
@@ -51,22 +51,28 @@ export default function ProjectPage() {
             </p>
           </div>
           {/*Destaque 02 - Organize the data*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>Organize the data</h4>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Organize the data
+            </h4>
             <p>
                 The current solution for the visualization of the value chain&apos;s data was complex, unordered and had a messy display of informations          
             </p>
           </div>
           {/*Destaque 03 - Enchant the audience*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>Enchant the audience</h4>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Enchant the audience
+            </h4>
             <p>
               Banco do Brasil invests in technology and innovation and continuously demonstrates its commitment to digital transformation and technological development. It is important to bring these innovative solutions to the eyes of the public and make it accessible for everyone.
             </p>
           </div>
           {/*Destaque 04 - Visual tools to understand a complex world*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>Visual tools to understand a complex world</h4>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Visual tools to understand a complex world
+            </h4>
             <p>
               Economic dynamics are a complex phenomenon, but visual resources can be a powerful tool to help people really see and understand the content of the data, not only numbers and labels
             </p>
@@ -87,7 +93,7 @@ export default function ProjectPage() {
               <img
                 src="/value-chain/images/Audit - Old Dashboard.png"
                 alt="Old dashboard showing connections and transactions between CNAE nodes"
-                className="w-full object-contain md720:mt-6 rounded-2xl mb-4 w-full big-image" />
+                className="w-full object-contain md720:mt-6 rounded-2xl mb-4 big-image" />
          
             <p className="text-sm text-gray-500 text-center mt-2 block italic mb-2 md720:mb-8">
                 Old dashboard showing connections and transactions between CNAE nodes
@@ -103,7 +109,7 @@ export default function ProjectPage() {
             <img
                 src="/value-chain/images/Audit - Table of Contents CNAE.png"
                 alt="Overview of the delimited table of contents for the project"
-                className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+                className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
               <p className="text-sm text-gray-500 text-center block italic mb-6">
               Overview of the delimited table of contents for the project
               </p>
@@ -115,7 +121,7 @@ export default function ProjectPage() {
             <img
               src="/value-chain/images/Audit - Untreated nodes.png"
               alt="Initial Visualization of Node Connections Without Data Processing"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
             <p className="text-sm text-gray-500 text-center block italic mb-2 md720:mb-6">
               Initial Visualization of Node Connections Without Data Processing
             </p>
@@ -132,8 +138,8 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Design Strategy</h2>
           
           {/*Estratégia 01 - Make it simpler*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
               Make it simpler, make it visual
             </h4>
             <p>
@@ -141,17 +147,17 @@ export default function ProjectPage() {
             </p>
           </div>
           {/*Estratégia 02 - Redesign the experience*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
-                Make people <span className='italic'>see</span> the data
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+                Make people <i>see</i> the data
             </h4>
             <p>
                 Identify patterns, treat and organize the information, so <b>people can pay more attention on understanding the story being told by the data</b> and not on trying to figure out the interface.
             </p>
           </div>
           {/*Estratégia 03 - Redesign the experience*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
                 Act on Public Engagement
             </h4>
             <p>
@@ -181,7 +187,7 @@ export default function ProjectPage() {
             <img
               src="/value-chain/images/Explorations - Explorations on Figma.png"
               alt="Overview of initial explorations for filtering and visualization of data"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Overview of initial explorations for filtering and visualization of data
             </p>
@@ -212,9 +218,14 @@ export default function ProjectPage() {
           Throughout the entire design process, numerous meetings were held to define the scope and directions of the experience, while assessing the budget and available resources. It was decided that the macroeconomic categories within the dataset would be represented by <b>3D-printed objects,</b> bringing them to life and enabling direct interaction with the visualization tool.
           </p>
           
-          <p className="highlight-point rounded-xl text-slate-600 my-12 bg-sky-100">
-              How can we seamlessly integrate physical objects into the digital experience?
-          </p>
+          {/*Highlight Text*/}
+          <div className='grid grid-cols-1 align-middle gap-4 mt-10 md720:mt-12 mb-10 md720:mb-12 w-full items-center'>
+            <div className='border border-slate-400 p-4 min-h-20 md720:min-h-28 content-center text-center w-full h-full rounded-xl md720:rounded-2xl py-2 bg-slate-400 bg-opacity-5 font-semibold'>
+              <p className="text-lg md720:text-xl text-slate-700">
+              💡 How can we seamlessly integrate physical objects into the digital experience?
+              </p>
+            </div>
+          </div>
           
           <p className="text-slate-950 mb-4">
           With RFID technology, users can trigger the experience and filter categories by <b>placing the corresponding 3D-printed object onto an RFID-enabled base.</b> This interaction stacks the views in the visualization tool in real-time. Each object was assigned a color, which lit up on the base as feedback, while the interactive monitor immediately highlighted the selected node and displayed its related information.
@@ -250,7 +261,7 @@ export default function ProjectPage() {
             <img
               src="/value-chain/images/Outcome - BBDW.png"
               alt="Prototype RFID objects filtering category visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Prototype of RFID objects filtering category visualization
             </p>
@@ -261,7 +272,7 @@ export default function ProjectPage() {
             <img
               src="/value-chain/images/Outcome - Stacking.gif"
               alt="Stacked filtering visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Stacked filtering visualization
             </p>
@@ -274,66 +285,64 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Results</h2>
           
           {/*Results 01*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-gray-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
             Improved Economic Insights
             </h4>
-            <p className='text-gray-800'>
+            <p className='text-slate-200'>
             Over 8,000 interconnections at the CNAE level were successfully treated and translated visually, breaking down complex information and enabling a clearer understanding of financial relationships across sectors. This innovation facilitated Banco do Brasil to mitigate risks regarding corporate-client discontinuation and empowered the extraction of actionable insights to support decision-making processes.
             </p>
           </div>
           {/*Results 02*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-900 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-blue-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
             Data Visualization as Interaction
             </h4>
-            <p className='text-blue-950'>
+            <p className='text-slate-200'>
             Data visualization plays an important role on translating and breaking down complex information to general audience. By introducing an interactive graph-based interface, the project allows users to explore the connections between CNAE sectors in real-time easily and directly within the 3D Viewer.
             </p>
           </div>
           {/*Results 03*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold text-lg mb-1 text-gray-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
             Engagement Beyond Banking
             </h4>
-            <p className='text-gray-800'>
+            <p className='text-slate-200'>
             By presenting the tool at innovation and technology conferences, the project reached a broader audience. This initiative reinforces Banco do Brasil&apos;s authority in digital transformation and reputation as a future-focused institution.
             </p>
           </div>
           {/*Results 04*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-900 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-blue-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
             Open access to information
             </h4>
-            <p className='text-blue-950'>
+            <p className='text-slate-200'>
             This project plays an important role on the democratization of information, <b>assisting people with the analysis and understanding of how values navigate through brazilian economy,</b> in a simple and intuitive way, even if they have no technical financial understanding.  
             </p>
           </div>
 
           {/*Imagem Resultado - 1*/}
-          <div className=" mb-4 grid justify-items-center">
+          <div className=" mb-2 grid justify-items-center">
             <img
               src="/value-chain/images/Results - Start Screen.png"
               alt="Start Screen"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-2 big-image" />
           </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           {/*Imagem Resultado - 2*/}
-          <div className=" mb-4 grid justify-items-center">
+          <div className=" mb-2 grid justify-items-center">
             <img
               src="/value-chain/images/Results - Onboarding.gif"
               alt="Onboarding Screens"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-2 big-image" />
           </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
           {/*Imagem Resultado - 3*/}
-          <div className=" mb-4 grid justify-items-center">
+          <div className=" mb-6 grid justify-items-center">
             <img
               src="/value-chain/images/Results - Node View.gif"
               alt="Node visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
           </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
+          <div className='justify-center flex mb-10 md720:mb-14'><hr/></div>
           
         </section>
       </div>
@@ -362,7 +371,7 @@ export default function ProjectPage() {
 
                     {/* Right Column (2/3 on large screens) */}
                       <div className="w-full md720:w-2/3 rounded-xl overflow-y-visible overflow-x-visible scrollbar-hide">
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md720:grid-cols-2 gap-4">
                           {/* Project 1 */}
                           <div className="transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-green-700 shadow-lg border-l-8 border-green-700 border-opacity-25 bg-color-lightgreen rounded-md">
                             <a href="/projects/bb-event-transformation">

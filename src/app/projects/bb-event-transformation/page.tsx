@@ -39,8 +39,8 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Goals</h2>
 
           {/*Destaque 01*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
               Engage through gamification
             </h4>
             <p>
@@ -48,8 +48,8 @@ export default function ProjectPage() {
             </p>
           </div>
           {/*Destaque 02*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
               Showcase products
             </h4>
             <p>
@@ -57,8 +57,8 @@ export default function ProjectPage() {
             </p>
           </div>
           {/*Destaque 03*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
               Collect leads
             </h4>
             <p>
@@ -66,8 +66,8 @@ export default function ProjectPage() {
             </p>
           </div>
           {/*Destaque 04*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
               Adapt to event needs
             </h4>
             <p>
@@ -91,20 +91,22 @@ export default function ProjectPage() {
           </p>
           
           {/*Texto Destaque*/} 
-          <div className='text-center mb-4  w-full border-l-4 border-emerald-400'>
-            <p className="ml-1 w-full rounded-md py-2 bg-emerald-400 bg-opacity-15 text-emerald-700 font-semibold">
-              Complementary variety
-            </p>
-          </div>
-          <div className='text-center mb-4  w-full border-l-4 border-green-500'>
-            <p className="ml-1 w-full rounded-md py-2 bg-green-400 bg-opacity-15 text-green-700 font-semibold">
-              Engage while showcasing product
-            </p>
-          </div>
-          <div className='text-center mb-4  w-full border-l-4 border-emerald-400'>
-            <p className="ml-1 w-full rounded-md py-2 bg-emerald-400 bg-opacity-15 text-emerald-700 font-semibold">
-              Scalability and Integration
-            </p>
+          <div className='grid grid-cols-1 md720:grid-cols-3 align-middle  gap-4 mt-10 md720:mt-12 mb-4 w-full items-center'>
+            <div className='border border-slate-400 p-4 min-h-20 md720:min-h-28 content-center text-center w-full h-full rounded-xl md720:rounded-2xl py-2 bg-slate-400 bg-opacity-5 font-semibold'>
+              <p className="text-lg md720:text-xl text-slate-700">
+                Complementary variety
+              </p>
+            </div>
+            <div className='border border-slate-400 p-4 min-h-20 md720:min-h-28 content-center text-center w-full h-full rounded-xl md720:rounded-2xl py-2 bg-slate-400 bg-opacity-5 font-semibold'>
+              <p className="text-lg md720:text-xl text-slate-700">
+                Engage while showcasing product
+              </p>
+            </div>
+            <div className='border border-slate-400 p-4 min-h-20 md720:min-h-28 content-center text-center w-full h-full rounded-xl md720:rounded-2xl py-2 bg-slate-400 bg-opacity-5 font-semibold'>
+              <p className="text-lg md720:text-xl text-slate-700">
+                Scalability and Integration
+              </p>
+            </div>
           </div>
                   
 
@@ -160,60 +162,42 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Outcome</h2>
           
           {/*Outcome 01*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-gray-900'>
-            6 fully customizable gamified experiences
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              6
+            </h4>
+            <h4 className='font-bold text-xl pb-4'>
+            Fully customizable gamified experiences
             </h4>
             <p className='text-gray-800'>
             The project delivered a scalable set of 6 customizable solutions, including 3 distinct memory games, a fortune wheel (with and without integrated quiz), a standalone quiz experience and a interactive real-time data collection setup, each adaptable for different initiatives
             </p>
           </div>
           {/*Outcome 02*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-gray-900'>
-            71 Solutions and 50 events in 2024
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              71
+            </h4>
+            <h4 className='font-bold text-xl pb-4'>
+            Solutions and 50 events in 2024
             </h4>
             <p className='text-gray-800'>
             In 2024, the project&apos;s delivered solutions were adapted and deployed across 71 initiatives at over 50 innovation and technology events nationwide
             </p>
           </div>
           {/*Outcome 03*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-gray-900'>
-            1400% Growth in 2025
+          <div className="rounded-2xl p-4 mb-8 md720:mb-12 border-slate-300 border-[1px]">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              1400%
+            </h4>
+            <h4 className='font-bold text-xl pb-4'>
+            Estimated growth in 2025
             </h4>
             <p className='text-gray-800'>
             There are over 1,000 initiatives scheduled to happen in 2025, representing a 1400% increase in adoption of the project&apos;s solution compared to 2024
             </p>
           </div>
 
-          <p className="text-slate-950 mb-4">
-          After successfully delivering scalable engaging solutions within a year, the project is taking action in <b>empowering Banco do Brasil&apos;s teams with full control to configure and customize experiences</b> according to their specific needs, designing a <b>customizable tool to streamline the process and eliminate unnecessary steps in current game build setups.</b>
-          </p>
-
-          {/*Imagem - 01*/}
-          <div className=" mb-4 grid justify-items-center">
-            <img
-              src="/bb-event-transformation/images/Outcome - 01.png"
-              alt="Early screen concepts for the customizable setup tool"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
-            <p className="text-sm text-gray-500 text-center block italic">
-                Early screen concepts for the customizable setup tool
-              </p>
-            </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
-          {/*Imagem - 02*/}
-          <div className=" mb-4 grid justify-items-center">
-            <img
-              src="/bb-event-transformation/images/Outcome - 02.png"
-              alt="Super-early development phase of the tool"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
-              <p className="text-sm text-gray-500 text-center block italic">
-                Super-early development phase of the tool
-              </p>
-            </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
-          
 
 
         </section>
@@ -223,38 +207,55 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Results</h2>
           
           {/*Results 01*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-gray-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
             Significant Financial Efficiency
             </h4>
-            <p className='text-gray-800'>
-            By investing in internal development for the <i>Banco do Brasil&apos;s</i> event solutions, there was significant impact over financial efficiency and cost strategy, reducing the bank&apos;s technological cost in 50 events near to <i>zero</i> in 2024.
+            <p className='text-slate-200'>
+            By investing in internal development for the <i>Banco do Brasil&apos;s</i> event solutions, there was significant impact over financial efficiency and cost strategy, reducing the bank&apos;s technological cost in 50 events near to <i>zero</i> in 2024
             </p>
           </div>
           {/*Results 02*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-900 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-blue-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+          <h4 className='font-bold text-xl pb-4'>
             Scalable Impact
             </h4>
-            <p className='text-blue-950'>
+            <p className='text-slate-200'>
             Through feedback and insights gathered from the events, the project is continuously evolving to anticipate needs and deliver improved solutions, offering highly adaptable and globally scalable experiences for different contexts and needs
             </p>
           </div>
           {/*Results 03*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold text-lg mb-1 text-gray-900'>
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+          <h4 className='font-bold text-xl pb-4'>
             Ensured Product Identity
             </h4>
-            <p className='text-gray-800'>
+            <p className='text-slate-200'>
             Initiatives can require distinct identities, as the visual language aligns to the target audience of the showcased offering. By empowering customization, it was ensured that each product maintained its distinct identity, delivering a consistent brand presence while safeguarding individual product narratives
             </p>
           </div>
 
-          <p className="text-slate-950 mt-10 mb-8 md720:my-14">
+          
+
+          <p className="text-slate-950 mt-10 mb-4">
+          After successfully delivering scalable engaging solutions within a year, the project is taking action in <b>empowering Banco do Brasil&apos;s teams with full control to configure and customize experiences</b> according to their specific needs, designing a <b>customizable tool to streamline the process and eliminate unnecessary steps in current game build setups.</b>
+          </p>
+
+
+          {/*Imagem - 01*/}
+          <div className=" mb-10 md720:mb-12 grid justify-items-center">
+            <img
+              src="/bb-event-transformation/images/Outcome - 01.png"
+              alt="Screen concepts for the customizable setup tool"
+              className="w-full object-contain mt-8 rounded-2xl mb-4 big-image" />
+            <p className="text-sm text-gray-500 text-center block italic">
+                Screen concepts for the customizable setup tool
+              </p>
+            </div>
+
+          <p className="text-slate-950 mb-8 md720:mb-14">
           By transforming its approach to event engagement, Banco do Brasil has set a new standard for <b>cost-effective, impactful, and scalable solutions that captivate audiences and deliver content.</b> These initiatives support the bank&apos;s commitment to innovation, financial efficiency, and brand presence.
           </p>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
-
+          <div className='justify-center flex mb-8 md720:mb-14'><hr/></div>
         </section>
       </div>
       
@@ -282,7 +283,7 @@ export default function ProjectPage() {
 
                     {/* Right Column (2/3 on large screens) */}
                       <div className="w-full md720:w-2/3 rounded-xl overflow-y-visible overflow-x-visible scrollbar-hide">
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md720:grid-cols-2 gap-4">
 
                           {/* Project 1 */}
                           <div className="transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-blue-700 shadow-lg border-l-8 border-blue-600 border-opacity-25 bg-color-lightblue rounded-md">

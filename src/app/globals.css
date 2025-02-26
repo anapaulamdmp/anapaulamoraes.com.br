@@ -88,6 +88,17 @@ hr{
   border-color: #DCDBDF;
 }
 
+.big-number{
+  font-size: 80px;
+  line-height: 1;
+}
+
+.highlight-section{
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #DCDCDC;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

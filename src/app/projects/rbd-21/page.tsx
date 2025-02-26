@@ -30,10 +30,7 @@ export default function ProjectPage() {
 
         {/*SEÇÃO INTRODUÇÃO*/} 
         <p className="text-slate-950 mb-4 ">
-        After countless late-night zoom calls to talk about life and design during post-pandemic times, 2021 marked a turning point for these conversations. Through researches on design subject, <b>there was a noticeable gap on official sources about brazilian design dating back to 2014.</b> On an effort to address this, there was one question in mind: <b>What is brazilian design?</b>
-        </p>
-        <p className="text-slate-950 mb-4">
-        This question drove a 3-year collaborative project that aimed to <b>identify, make accessible and amplify understanding about the Brazilian Design scene in 2021.</b> To achieve this, the project combined two key efforts: automated and manual searches across public web databases, and an online survey directed at individuals identifying as Brazilian designers. Covering themes as education, professional market, knowledge generation and designers, all gathered insights were <b>compiled on a website featuring over 30 data visualization sets</b> that intend to inspire and lead discussions on the subject in the country.
+        <b>What is Brazilian Design?</b> In 2021, just after the COVID-19 pandemic reshaped the way we collaborated, a friend and I were working to define a design research project. We found ourselves relying heavily on foreign sources, only to realize there was a <b>lack of official records on Brazilian design from 2014 onward.</b> This discovery led us to shift our focus, turning our project into a initiative to <b>identify and expand the understanding of the Brazilian design scene in 2021.</b>
         </p>
 
 
@@ -42,61 +39,87 @@ export default function ProjectPage() {
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Goals</h2>
 
           {/*Destaque 01*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
-            Collect data about design in Brazil
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Broad exploration of theme
             </h4>
             <p>
-            Create a record on information about brazilian design until 2021
+            Map the end-to-end design landscape in Brazil, covering <b>education, professional market, scientific publishing, and the people who shape Brazilian design</b>
             </p>
           </div>
           {/*Destaque 02*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>Create data visualization from compiled information</h4>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Collect data on Brazilian Design
+            </h4>
             <p>
-            Use visual tools to turn complex data into easy to consume information
+              Gather and organize information about design in Brazil up to 2021 combining manual and automated methods, including desk researches, online survey and web-scraping of public databases
             </p>
           </div>
           {/*Destaque 03*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>Public access to the information</h4>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Generate insights, not images
+            </h4>
             <p>
-            Make the data about brazilian design available for everyone
+              Turn complex data into meaningful visual information, highlighting points to encourage discussion and critical reflection
             </p>
           </div>
           {/*Destaque 04*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>Generate insights, not images</h4>
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='font-bold text-xl pb-4'>
+              Make the data accessible
+            </h4>
             <p>
-            Making the conditions and consequences of an issue apparent and known through insights
+            Publish and make the data openly available for anyone to explore and use
             </p>
           </div>
 
+
+      
+
         </section>
 
-        {/*SEÇÃO RESEARCH AND FINDINGS*/} 
-        <section id="research-and-findings" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
+        {/*SEÇÃO Data Collection */} 
+        <section id="data-collection" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">
-            Research and Findings
+            Data collection
           </h2>
           {/*Conteúdo*/} 
           <p className="text-slate-950 mb-4">
-          For the online survey, there was careful planning involved in the <b>release strategy,</b> making sure it would <b>reach a broader audience across a continental country.</b>
+          The data collection methods for this project varied depending on the subject being explored. Desk research and web scraping were used to gather quantitative information, while a survey was designed to collect both quantitative and qualitative insights from people.
           </p>
-          <p className="text-slate-950 mb-4">
+          <p className="text-slate-950 mb-6">
+          The online survey was carefully structured to cover the desired areas, and its release was strategically planned to ensure it would <b>reach a broader audience across a continental country.</b>
+          </p>
+
+          {/*Survey Overview*/} 
+          <div className="mb-8 md720:mb-12 grid justify-items-center">
+            {/*Imagem - Dashboard original*/} 
+              <img
+                src="/rbd-21/images/Data Collection - Online Survey Flow Diagram.png"
+                alt="Online Survey Flow Diagram"
+                className="object-contain mt-6 md720:mt-6 rounded-2xl mb-2 w-full big-image" />
+         
+            <p className="text-sm text-gray-500 text-center mt-2 block italic mb-2 md720:mb-8">
+              Online Survey Flow Diagram
+            </p>
+          </div>
+
+          <p className="text-slate-950 mb-6">
           The combined efforts of desk research, web scraping and online survey resulted in <b>over 5,500 lines of structured and unstructured data collected.</b>
           </p>
           {/*Overview*/} 
           <div className="mb-4 md720:mb-6 grid justify-items-center">
             {/*Imagem - Dashboard original*/} 
+              {/*<img
+                src="/rbd-21/images/Data Collection - Table.png"
+                alt="Data collecting table overview"
+                className="object-contain mt-6 md720:mt-6 rounded-2xl mb-2 w-full big-image" />*/}
               <img
-                src="/rbd-21/images/Research and Findings - Table.png"
-                alt="Data collecting overview"
-                className="w-full object-contain md720:mt-6 rounded-2xl mb-2 w-full big-image" />
-              <img
-                src="/rbd-21/images/Research and Findings - Overview.gif"
-                alt="Data collecting overview"
-                className="w-full object-contain md720:mt-6 rounded-2xl mb-4 w-full big-image" />
+                src="/rbd-21/images/Data Collection - Overview.gif"
+                alt="Video snippet of data collecting overview"
+                className="object-contain mt-6 md720:mt-6 rounded-2xl mb-4 w-full big-image" />
          
             <p className="text-sm text-gray-500 text-center mt-2 block italic mb-2 md720:mb-8">
                 Part of data collected in the project
@@ -104,18 +127,6 @@ export default function ProjectPage() {
           </div>
           <div className='justify-center flex mb-4 md720:mb-8'><hr/></div>
 
-          {/*Survey Overview*/} 
-          <div className="mb-8 md720:mb-12 grid justify-items-center">
-            {/*Imagem - Dashboard original*/} 
-              <img
-                src="/rbd-21/images/Research and Findings - Survey Overview.png"
-                alt="Overview of the flow designed for the Online Survey"
-                className="w-full object-contain md720:mt-6 rounded-2xl mb-2 w-full big-image" />
-         
-            <p className="text-sm text-gray-500 text-center mt-2 block italic mb-2 md720:mb-8">
-              Overview of the flow designed for the Online Survey
-            </p>
-          </div>
                   
 
 
@@ -125,34 +136,43 @@ export default function ProjectPage() {
         <section id="findings" className="mb-6 md720:mb-8 mt-10 md720:mt-14">
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Findings</h2>
           
-          {/*Estratégia 01 */} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
-              114 Researched public universities
+          {/*Findings 01 */} 
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              406
+            </h4>
+            <h4 className='font-bold text-xl pb-4'>
+              Participants in survey
             </h4>
             <p>
-            Within the scope of Brazilian Public Universities, a desk research was conducted on all 114 institutions, looking for the criteria of having or not design-related courses
+              406 Individuals participated in the conducted survey aiming to understand who are and the people who recognize themselves as brazilian designers
             </p>
           </div>
-          {/*Estratégia 02 */} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
-              5,000 Articles collected
+          {/*Findings 02 */} 
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              114
+            </h4>
+            <h4 className='font-bold text-xl pb-4'>
+              Public Universities Investigated
             </h4>
             <p>
-            To understand trends in design knowledge generation in Brazil a web scrapping tool was used to gather over 5,000 articles in Blucher Proceeding&apos;s database until 2021
+              Within the scope of Brazilian Public Universities, a desk research was conducted on all 114 institutions, individually looking for the criteria of having or not design-related courses
             </p>
           </div>
-          {/*Estratégia 03*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 mb-4 rounded-e-lg">
-            <h4 className='font-bold text-lg'>
-              406 Online survey answers
+          {/*Findings 03 */} 
+          <div className="rounded-2xl p-4 mb-4 border-slate-300 border-[1px]">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              5K+
+            </h4>
+            <h4 className='font-bold text-xl pb-4'>
+              Articles collected
             </h4>
             <p>
-            Aiming to understand who are the people who recognize themselves as designers in Brazil and their views on the matter of brazilian design, an online survey was conducted and achieved 406 answers
+              Through web scapping, over 5,000 articles were gathered from Blucher Proceedings in an attempt to understand trends in brazilian design knowledge generation
             </p>
           </div>
-        
+
         </section>
 
         {/*SEÇÃO EXPLORATIONS*/} 
@@ -172,7 +192,7 @@ export default function ProjectPage() {
             <img
               src="/rbd-21/images/Explorations - MixPanel.png"
               alt="Data uploaded into MixPanel for Dashboard visualization"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
             Data uploaded into MixPanel for Dashboard visualization
             </p>
@@ -190,7 +210,7 @@ export default function ProjectPage() {
             <img
               src="/rbd-21/images/Explorations - Logo Crafting.png"
               alt="Refinement resume of the visual identity crafting"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Refinement resume of the visual identity crafting
             </p>
@@ -214,7 +234,7 @@ export default function ProjectPage() {
         <section id="outcome" className='mb-6 md720:mb-8 mt-10 md720:mt-14'>
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Outcome</h2>
           <p className="text-slate-950 mb-4">
-          The process was long and challenging, but it was supported by many who believed in the vision and the proposal behind it. The outcome was <b>a project that exceeded initial expectations, offering people a deeper understanding of the reality of Brazilian design. </b>
+            Over three years of work, from 2021 to 2023, the process was long and challenging, but was strengthened by the support of those who believed the vision and purpose behind it. The outcome was a bold project that showcased <b>the importance of generating data to foster meaningful discussions and inspire action where change is needed. </b>
           </p>
 
           {/*Imagem - Tech Structure*/}
@@ -225,7 +245,7 @@ export default function ProjectPage() {
               controls
             />
           </div>
-          
+        
 
 
         </section>
@@ -234,98 +254,89 @@ export default function ProjectPage() {
         <section id="results" className='mb-6 md720:mb-8 mt-10 md720:mt-14'>
           <h2 className="text-2xl font-bold mb-6 md720:mb-8">Results</h2>
           
-          {/*Results 01*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-gray-900'>
-            100% free responsive website
+
+          {/*Results 01 */} 
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='text-6xl font-bold pb-2 md720:text-7xl'>
+              30+
             </h4>
-            <p className='text-gray-800'>
+            <h4 className='font-bold text-xl pb-4'>
+              Data visualization charts
+            </h4>
+            <p className='text-slate-200'>
+            Over 5,000 lines of data were summarized and translated into 31 data visualization diagrams, organized by major themes of interest. This approach simplifies the understanding and facilitates the extraction of insights and discussions about brazilian design.
+            </p>
+          </div>
+          {/*Results 02 */} 
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
+              Free, responsive website
+            </h4>
+            <p className='text-slate-200'>
             The insights and findings of the project were made freely available on a responsive website to ensure that the goal of having widespread access to the data and easy sharing was met. This way, it could be opened by anyone, anywhere.
             </p>
           </div>
-          {/*Results 02*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-900 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-blue-900'>
-            Over 30 data visualizations
+          {/*Results 03 */} 
+          <div className="rounded-2xl p-4 mb-4 bg-gray-950 text-slate-50">
+            <h4 className='font-bold text-xl pb-4'>
+              Strong, collaborative results
             </h4>
-            <p className='text-blue-950'>
-            Over 5,000 lines of data were summarized and translated into over 30 data visualization diagrams, organized by major themes of interest. This approach simplifies the understanding and facilitates the extraction of insights and discussions about brazilian design <i>phenomena</i>. 
+            <p className='text-slate-200'>
+            This project came to life thanks to the collaboration of many people: those who helped develop tools to curate data, key contacts who helped spread the word and provided brand support, and everyone who participated in and shared the survey. Their involvement was very significative to the project and reflects the rich and interconnected nature of an identity shaped by many voices.
             </p>
           </div>
-          {/*Results 03*/} 
-          <div className="bg-gray-200 border-l-4 border-gray-950 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold text-lg mb-1 text-gray-900'>
-            Strong visual identity
-            </h4>
-            <p className='text-gray-800'>
-            The visual of the project holds a strong identity branded by its live colors and shapes, crafted after the analysis and breakdown of the country&apos;s flags and forms. The results embody the dimension and the concept of a complex and continent-sized subject that is Brazil.
-            </p>
-          </div>
-          {/*Results 04*/} 
-          <div className="bg-blue-50 border-l-4 border-blue-900 p-4 mb-6 rounded-e-lg">
-            <h4 className='font-extrabold  text-lg mb-1 text-blue-900'>
-            Collaboration is key
-            </h4>
-            <p className='text-blue-950'>
-            This project was possible because people believed in it, assisted not only by developers and designers, but by everyone who acted on sharing and participating on the survey. For a continental country such as Brazil, the data had to be built by the collective efforts of many, to reflect the complex and diverse nature of an identity intertwined with many others.
-            </p>
-          </div>
+          
 
-          {/*Imagem Resultado - 0*/}
-          <div className=" mb-4 grid justify-items-center">
+
+          {/*Imagem Resultado - 1*/}
+          <div className=" mb-2 grid justify-items-center">
             <img
               src="/rbd-21/images/Results - RBD21.gif"
               alt="Vignette"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl big-image" />
           </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
-          {/*Imagem Resultado - 1*/}
-          <div className=" mb-4 grid justify-items-center">
+          {/*Imagem Resultado - 2*/}
+          <div className=" mb-2 grid justify-items-center">
             <img
               src="/rbd-21/images/Results - 01.png"
               alt="Results - 01"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl big-image" />
           </div>
-          <div className='justify-center flex mb-2 md720:mb-5'><hr/></div>
-          {/*Imagem Resultado - 2*/}
-          <div className=" mb-4 grid justify-items-center">
+
+          {/*Imagem Resultado - 3*/}
+          <div className=" mb-2 grid justify-items-center">
             <img
               src="/rbd-21/images/Results - 02.png"
               alt="Results - 02"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl big-image" />
           </div>
-          <div className='justify-center flex mb-2 md720:mb-5'><hr/></div>
-          {/*Imagem Resultado - 3*/}
-          <div className=" mb-4 grid justify-items-center">
+
+          {/*Imagem Resultado - 4*/}
+          <div className=" mb-2 grid justify-items-center">
             <img
               src="/rbd-21/images/Results - 03.png"
               alt="Results - 03"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="w-full object-contain mt-8 rounded-2xl mb-6 big-image" />
           </div>
-          <div className='justify-center flex mb-2 md720:mb-5'><hr/></div>
-          {/*Imagem Resultado - 4*/}
-          <div className=" mb-4 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Results - 04.png"
-              alt="Results - 04"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
-          </div>
-          <div className='justify-center flex mb-2 md720:mb-5'><hr/></div>
-          {/*Imagem Resultado - 5*/}
-          <div className=" mb-4 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Results - 05.png"
-              alt="Results - 05"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
-          </div>
-          <div className='justify-center flex mb-10 md720:mb-14'><hr/></div>
+          <div className='justify-center flex mb-10 md720:mb-12'><hr/></div>
           
-          <div className='rounded-lg bg-green-200 bg-opacity-35 text-center px-8 py-8 '>
-            <h4 className='font-bold text-lg md720:text-xl mb-1  text-green-900 '>Wanna see the full project? 👀</h4>
+          {/*RESULTADO PROTÓTIPO*/}
+          
+          <div className='rounded-2xl bg-blue-200 bg-opacity-35 text-center px-8 py-8 mb-6'>
+            <h4 className='font-bold text-lg md720:text-xl mb-1  text-blue-900 '>Wanna interact with the project? 👀</h4>
 
-            <p className='text-base md720:text-lg italic leading-tight  text-green-900 '>Send me a message for the prototype link<br/></p>
+            <p className='text-base md720:text-lg italic leading-tight  text-blue-900 mb-8'>Here is the prototype for you to explore ↓ (brazilian-pt only)<br/></p>
+
+            {/*Protótipos*/}
+              {/*Protótipo Desktop*/}
+              <iframe className="w-full rounded-2xl px-6 bg-[#090C0F] h-[520px] hidden md720:block" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=664%3A4958&node-id=695-9736&p=f&viewport=835%2C-645%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=796%3A9726&embed-host=share&hide-ui=true" allowfullscreen></iframe>
+              
+              {/*Protótipo Mobile*/}
+              <iframe className="w-full rounded-2xl  h-[750px] block md720:hidden" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=1018%3A5744&node-id=1018-24395&viewport=7023%2C-17897%2C0.32&scaling=scale-down-width&content-scaling=fixed&embed-host=share&hide-ui=true" allowfullscreen></iframe>
+          
 
           </div>
+          
 
         </section>
       </div>
@@ -354,7 +365,7 @@ export default function ProjectPage() {
 
                     {/* Right Column (2/3 on large screens) */}
                       <div className="w-full md720:w-2/3 rounded-xl overflow-y-visible overflow-x-visible scrollbar-hide">
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md720:grid-cols-2 gap-4">
 
                           {/* Project 1 */}
                           <div className="transition-all duration-[500ms] hover:scale-[1.02] hover:opacity-90 text-slate-800 hover:text-blue-700 shadow-lg border-l-8 border-blue-600 border-opacity-25 bg-color-lightblue rounded-md">
