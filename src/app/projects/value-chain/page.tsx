@@ -19,7 +19,7 @@ export default function ProjectPage() {
         </div>
         
         {/*Título do Projeto*/} 
-        <h1 className="mt-12 md720:text-4xl text-2xl font-medium text-center mb-8 md720:mb-14 text-slate-900 leading-snug md720:leading-snug">Banco do Brasil&apos;s Value Chain: Reshaping data visualization for easier readings and enchanting audience</h1>
+        <h1 className="mt-12 md720:text-4xl text-2xl font-medium text-center mb-8 md720:mb-14 text-slate-900 leading-snug md720:leading-snug">Banco do Brasil&apos;s Value Chain: Reshaping data visualization and enchanting audience</h1>
         
         {/*Cover Image*/} 
         <img

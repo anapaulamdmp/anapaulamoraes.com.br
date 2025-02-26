@@ -86,10 +86,10 @@ export default function Home() {
                       className='flex flex-col flex-1 w-full py-4 md720:py-8 rounded-b-2xl font-normal transition-all duration-[500ms]'
                     >
                       {/* Title and Button Container */}
-                      <div className='grid gap-1 md720:gap-0 grid-cols-1 md720:grid-cols-3 items-center align-middle h-full font-semibold'>
+                      <div className='grid gap-1 md720:gap-0 grid-row-2 items-center align-middle h-full font-semibold'>
                             {/* Project Title (Spanning 2 columns) */}
-                              <span className='text-sm text-blue-700'>2024</span>
-                              <span className='max-w-[695px] col-span-2 md720:col-span-3 '>Reshaping Data Visualization and Enchanting Audience</span>
+                              <span className='text-sm col-span-2 text-blue-700'>2024</span>
+                              <span className='w-full col-span-2'>Banco do Brasil&apos;s Value Chain: Reshaping data visualization and enchanting audience</span>
                       
 
                       </div>
@@ -112,10 +112,10 @@ export default function Home() {
                       className='flex flex-col flex-1 w-full py-4 md720:py-8 rounded-b-2xl font-normal transition-all duration-[500ms]'
                     >
                       {/* Title and Button Container */}
-                      <div className='grid gap-1 md720:gap-0 grid-cols-1 md720:grid-cols-3 items-center align-middle h-full font-semibold'>
+                      <div className='grid gap-1 md720:gap-0 grid-row-2 items-center align-middle h-full font-semibold'>
                             {/* Project Title (Spanning 2 columns) */}
-                              <span className='text-sm text-blue-700'>2024</span>
-                              <span className='max-w-[695px] col-span-2 md720:col-span-3 '>Transforming Event Engagement with Customizable Solutions</span>
+                            <span className='text-sm col-span-2 text-blue-700'>2024</span>
+                            <span className='w-full col-span-2'>Transforming Event Engagement with Customizable Solutions</span>
                       
 
                       </div>
@@ -138,10 +138,10 @@ export default function Home() {
                       className='flex flex-col flex-1 w-full py-4 md720:py-8 rounded-b-2xl font-normal transition-all duration-[500ms]'
                     >
                       {/* Title and Button Container */}
-                      <div className='grid gap-1 md720:gap-0 grid-cols-1 md720:grid-cols-3 items-center align-middle h-full font-semibold'>
+                      <div className='grid gap-1 md720:gap-0 grid-row-2 items-center align-middle h-full font-semibold'>
                             {/* Project Title (Spanning 2 columns) */}
-                              <span className='text-sm text-blue-700'>2023</span>
-                              <span className='max-w-[695px] col-span-2 md720:col-span-3 '>Mapping Brazilian Design in 2021</span>
+                            <span className='text-sm col-span-2 text-blue-700'>2023</span>
+                            <span className='w-full col-span-2'>Mapping Brazilian Design in 2021</span>
                       
 
                       </div>

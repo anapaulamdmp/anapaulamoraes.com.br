@@ -221,7 +221,7 @@ export default function ProjectPage() {
             <img
               src="/rbd-21/images/Explorations - Figma.png"
               alt="Explorations for social media sharing and press release"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
+              className="object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
             <p className="text-sm text-gray-500 text-center block italic">
               Explorations for social media sharing and press release
             </p>
@@ -237,11 +237,11 @@ export default function ProjectPage() {
             Over three years of work, from 2021 to 2023, the process was long and challenging, but was strengthened by the support of those who believed the vision and purpose behind it. The outcome was a bold project that showcased <b>the importance of generating data to foster meaningful discussions and inspire action where change is needed. </b>
           </p>
 
-          {/*Imagem - Tech Structure*/}
+          {/*Video - Outcome*/}
           <div className=" mb-4 grid justify-items-center">
             <video
               src="/rbd-21/images/Outcome - RBD21.mp4"
-              className="w-full object-contain mt-8 rounded-2xl mb-4 w-full big-image"
+              className="object-contain mt-8 rounded-2xl mb-4 w-full big-image"
               controls
             />
           </div>
@@ -282,41 +282,65 @@ export default function ProjectPage() {
               Strong, collaborative results
             </h4>
             <p className='text-slate-200'>
-            This project came to life thanks to the collaboration of many people: those who helped develop tools to curate data, key contacts who helped spread the word and provided brand support, and everyone who participated in and shared the survey. Their involvement was very significative to the project and reflects the rich and interconnected nature of an identity shaped by many voices.
+            This project came to life thanks to the collaboration of many people: those who helped develop tools to curate data, key contacts who helped spread the word and provided brand support, and everyone who participated in and shared the survey. Their involvement was very significative to the project and reflects the rich and interconnected nature of an identity shaped by many.
             </p>
           </div>
           
 
 
           {/*Imagem Resultado - 1*/}
-          <div className=" mb-2 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Results - RBD21.gif"
-              alt="Vignette"
-              className="w-full object-contain mt-8 rounded-2xl big-image" />
-          </div>
-          {/*Imagem Resultado - 2*/}
-          <div className=" mb-2 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Results - 01.png"
-              alt="Results - 01"
-              className="w-full object-contain mt-8 rounded-2xl big-image" />
-          </div>
+          <div className='grid md720:grid-cols-1 gap-8 my-8 md720:my-12'>
+              <div className="w-full justify-items-center">
+                <img
+                  src="/rbd-21/images/Results - RBD21.gif"
+                  alt="Vignette"
+                  className="w-full object-contain rounded-2xl big-image" />
+              </div>
+              {/*Video - Outcome*/}
+              <div className="grid justify-items-center">
+                <video
+                  src="/rbd-21/images/Results - Demographic Insight.mp4"
+                  className="object-contain rounded-2xl w-full big-image"
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div>
+              {/*Video - Outcome*/}
+              <div className="grid justify-items-center">
+                <video
+                  src="/rbd-21/images/Results - Professional Acting.mp4"
+                  className="object-contain rounded-2xl w-full big-image"
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div>
+              {/*Video - Outcome*/}
+              {/*<div className="grid justify-items-center">
+                <video
+                  src="/rbd-21/images/Results - Academic Production.mp4"
+                  className="object-contain rounded-2xl w-full big-image"
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div>*/}
+              {/*Imagem Resultado - 2*/}
+              {/*<div className=" w-full justify-items-center">
+                <img
+                  src="/rbd-21/images/Results - 01.png"
+                  alt="Results - 01"
+                  className="w-full object-contain rounded-2xl big-image" />
+              </div>*/}
 
-          {/*Imagem Resultado - 3*/}
-          <div className=" mb-2 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Results - 02.png"
-              alt="Results - 02"
-              className="w-full object-contain mt-8 rounded-2xl big-image" />
-          </div>
-
-          {/*Imagem Resultado - 4*/}
-          <div className=" mb-2 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Results - 03.png"
-              alt="Results - 03"
-              className="w-full object-contain mt-8 rounded-2xl mb-6 big-image" />
+              {/*Imagem Resultado - 3*/}
+              {/*<div className=" grid justify-items-center">
+                <img
+                  src="/rbd-21/images/Results - 02.png"
+                  alt="Results - 02"
+                  className="w-full object-contain rounded-2xl big-image" />
+              </div>*/}
           </div>
           <div className='justify-center flex mb-10 md720:mb-12'><hr/></div>
           
@@ -332,7 +356,7 @@ export default function ProjectPage() {
               <iframe className="w-full rounded-2xl px-6 bg-[#090C0F] h-[520px] hidden md720:block" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=664%3A4958&node-id=695-9736&p=f&viewport=835%2C-645%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=796%3A9726&embed-host=share&hide-ui=true" allowFullScreen></iframe>
               
               {/*Protótipo Mobile*/}
-              <iframe className="w-full rounded-2xl  h-[750px] block md720:hidden" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=1018%3A5744&node-id=1018-24395&viewport=7023%2C-17897%2C0.32&scaling=scale-down-width&content-scaling=fixed&embed-host=share&hide-ui=true" allowFullScreen></iframe>
+              <iframe className="w-full rounded-2xl px-4 bg-[#090C0F] h-[480px] min-[420px]:h-[720px] block md720:hidden" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=1018%3A5744&node-id=1018-24395&viewport=7023%2C-17897%2C0.32&scaling=scale-down-width&content-scaling=fixed&embed-host=share&hide-ui=true" allowFullScreen></iframe>
           
 
           </div>
