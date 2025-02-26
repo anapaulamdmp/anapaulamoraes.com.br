@@ -329,10 +329,10 @@ export default function ProjectPage() {
 
             {/*Protótipos*/}
               {/*Protótipo Desktop*/}
-              <iframe className="w-full rounded-2xl px-6 bg-[#090C0F] h-[520px] hidden md720:block" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=664%3A4958&node-id=695-9736&p=f&viewport=835%2C-645%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=796%3A9726&embed-host=share&hide-ui=true" allowfullscreen></iframe>
+              <iframe className="w-full rounded-2xl px-6 bg-[#090C0F] h-[520px] hidden md720:block" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=664%3A4958&node-id=695-9736&p=f&viewport=835%2C-645%2C0.02&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=796%3A9726&embed-host=share&hide-ui=true" allowFullScreen></iframe>
               
               {/*Protótipo Mobile*/}
-              <iframe className="w-full rounded-2xl  h-[750px] block md720:hidden" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=1018%3A5744&node-id=1018-24395&viewport=7023%2C-17897%2C0.32&scaling=scale-down-width&content-scaling=fixed&embed-host=share&hide-ui=true" allowfullscreen></iframe>
+              <iframe className="w-full rounded-2xl  h-[750px] block md720:hidden" src="https://embed.figma.com/proto/J9HJQCu6G9RcMS3PZTTV0G/RBD-21---Desktop?page-id=1018%3A5744&node-id=1018-24395&viewport=7023%2C-17897%2C0.32&scaling=scale-down-width&content-scaling=fixed&embed-host=share&hide-ui=true" allowFullScreen></iframe>
           
 
           </div>
