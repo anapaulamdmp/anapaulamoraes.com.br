@@ -348,7 +348,7 @@ export default function ProjectPage() {
           
           {/*RESULTADO PROTÓTIPO*/}
           
-          <div className='rounded-2xl bg-blue-200 bg-opacity-35 text-center px-4 md720:px-8 py-8 mb-6'>
+          <div className='rounded-2xl bg-blue-200 bg-opacity-35 text-center px-4 md720:px-8 py-4 md720:py-8 mb-6'>
             <h4 className='font-bold text-lg md720:text-xl mb-1  text-blue-900 '>Wanna interact with the project? 👀</h4>
 
             <p className='text-base md720:text-lg italic leading-tight  text-blue-900 mb-8'>Here is the prototype for you to explore ↓ (brazilian-pt only)<br/></p>
