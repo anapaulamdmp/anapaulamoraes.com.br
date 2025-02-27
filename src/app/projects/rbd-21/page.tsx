@@ -304,6 +304,7 @@ export default function ProjectPage() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                 />
               </div>
               {/*Video - Outcome*/}
@@ -314,6 +315,7 @@ export default function ProjectPage() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                 />
               </div>
               {/*Video - Outcome*/}
