@@ -30,7 +30,7 @@ export default function ProjectPage() {
 
         {/*SEÇÃO INTRODUÇÃO*/} 
         <p className="text-slate-950 mb-4 ">
-            This project aims to showcase innovation and was born from the need to capture the audience's attention and make the tracking of economic activity relationships accessible to broader audiences. Using complex data, extracted from CNAE (National Classification of Economic Activities) open source database, <b>the challenge was to simplify and present it in an intuitive and acessible way.</b>
+            This project aims to showcase innovation and was born from the need to capture the audience&apos;s attention and make the tracking of economic activity relationships accessible to broader audiences. Using complex data, extracted from CNAE (National Classification of Economic Activities) open source database, <b>the challenge was to simplify and present it in an intuitive and acessible way.</b>
         </p>
         {/*Highlight Text*/}
           <div className='grid grid-cols-1 align-middle gap-4 mt-10 md720:mt-12 mb-10 md720:mb-12 w-full items-center'>

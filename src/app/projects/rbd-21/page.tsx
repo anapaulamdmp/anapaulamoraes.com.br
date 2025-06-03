@@ -30,7 +30,7 @@ export default function ProjectPage() {
 
         {/*SEÇÃO INTRODUÇÃO*/} 
         <p className="text-slate-950 mb-4 ">
-        In 2021, I partnered with a friend to explore design maturity and apply it to a volunteering project we were working on. As we dug deeper, we realized <b>there were little to no official records or consolidated data about Brazilian design from 2014 onward.</b> Our focus then shifted, and the project became an initiative to <b>map and expand the understanding of Brazil's design landscape through data collection and visualization.</b>
+        In 2021, I partnered with a friend to explore design maturity and apply it to a volunteering project we were working on. As we dug deeper, we realized <b>there were little to no official records or consolidated data about Brazilian design from 2014 onward.</b> Our focus then shifted, and the project became an initiative to <b>map and expand the understanding of Brazil&apos;s design landscape through data collection and visualization.</b>
         </p>
         <p className="text-slate-950 mb-4 ">
         This project took us three years to complete and reflects both the importance and the effort involved in conducting independent research and fostering discussion.
