@@ -219,17 +219,6 @@ export default function ProjectPage() {
             </p>
           </div>
           <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
-          {/*Imagem - Explorações*/}
-          <div className=" mb-8 md720:mb-12 grid justify-items-center">
-            <img
-              src="/rbd-21/images/Explorations - Figma.png"
-              alt="Explorations for social media sharing and press release"
-              className="object-contain mt-8 rounded-2xl mb-4 w-full big-image" />
-            <p className="text-sm text-gray-500 text-center block italic">
-              Explorations for social media sharing and press release
-            </p>
-          </div>
-          <div className='justify-center flex mb-4 md720:mb-10'><hr/></div>
 
         </section>
 
