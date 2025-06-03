@@ -89,7 +89,7 @@ export default function Home() {
                       <div className='grid gap-1 md720:gap-0 grid-row-2 items-center align-middle h-full font-semibold'>
                             {/* Project Title (Spanning 2 columns) */}
                               <span className='text-sm col-span-2 text-blue-700'>2024</span>
-                              <span className='w-full col-span-2'>Banco do Brasil&apos;s Value Chain: Reshaping Data Visualization and Enchanting Audience</span>
+                              <span className='w-full col-span-2'>Reshaping Data Visualization for Economic Activities</span>
                       
 
                       </div>

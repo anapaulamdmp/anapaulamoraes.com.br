@@ -296,7 +296,7 @@ export default function ProjectPage() {
                                 alt="Project Thumbnail"
                               />
                               <div className="w-full px-4 h-auto pb-4 text-lg md720:text-xl font-bold leading-snug">
-                                Reshaping Data Visualization and Enchanting Audience
+                                Reshaping Data Visualization for Economic Activities
                               </div>
                             </a>
                           </div>

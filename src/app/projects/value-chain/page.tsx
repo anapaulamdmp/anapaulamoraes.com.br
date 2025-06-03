@@ -19,7 +19,7 @@ export default function ProjectPage() {
         </div>
         
         {/*Título do Projeto*/} 
-        <h1 className="mt-12 md720:text-4xl text-2xl font-medium text-center mb-8 md720:mb-14 text-slate-900 leading-snug md720:leading-snug">Banco do Brasil&apos;s Value Chain: Reshaping Data Visualization and Enchanting Audience</h1>
+        <h1 className="mt-12 md720:text-4xl text-2xl font-medium text-center mb-8 md720:mb-14 text-slate-900 leading-snug md720:leading-snug">Reshaping Data Visualization for Economic Activities</h1>
         
         {/*Cover Image*/} 
         <img
@@ -30,11 +30,16 @@ export default function ProjectPage() {
 
         {/*SEÇÃO INTRODUÇÃO*/} 
         <p className="text-slate-950 mb-4 ">
-            Banco do Brasil is the <b>oldest and one of the biggest financial institutions in Latin America</b> and tracks economic activity relationships through a dataset extracted from CNAE (National Classification of Economic Activities) database. However, visualizing and interpreting this data proved challenging due to its complexity.
+            This project aims to showcase innovation and was born from the need to capture the audience's attention and make the tracking of economic activity relationships accessible to broader audiences. Using complex data, extracted from CNAE (National Classification of Economic Activities) open source database, <b>the challenge was to simplify and present it in an intuitive and acessible way.</b>
         </p>
-        <p className="text-slate-950 mb-4">
-            Banco do Brasil&apos;s Value Chain was created to <b>capture the audience&apos;s attention by showcasing innovation and simplifying complex data. </b>With the goal of bringing the project to the broader public through technology and innovation conferences, the platform uses advanced visual tools to transform intricate financial data into an easily understandable and interactive experience. By organizing data based on the CNAE, it allows users to explore connections between sectors like agribusiness, education, and healthcare, making complex economic relationships more accessible and engaging.
-        </p>
+        {/*Highlight Text*/}
+          <div className='grid grid-cols-1 align-middle gap-4 mt-10 md720:mt-12 mb-10 md720:mb-12 w-full items-center'>
+            <div className='border border-slate-200 p-4 min-h-20 md720:min-h-28 content-center text-center w-full h-full rounded-xl md720:rounded-2xl py-2 bg-slate-400 bg-opacity-5 font-semibold'>
+              <p className="text-lg md720:text-xl text-slate-700">
+              How can we translate complex data into accessible, concise information?
+              </p>
+            </div>
+          </div>
 
 
         {/*SEÇÃO GOALS*/} 
@@ -74,7 +79,7 @@ export default function ProjectPage() {
               Visual tools to understand a complex world
             </h4>
             <p>
-              Economic dynamics are a complex phenomenon, but visual resources can be a powerful tool to help people really see and understand the content of the data, not only numbers and labels
+              Economic dynamics are a complex phenomenon, but visual resources can be a powerful tool to make them tangible and interpretative.
             </p>
           </div>
 
@@ -92,7 +97,7 @@ export default function ProjectPage() {
             {/*Imagem - Dashboard original*/} 
               <img
                 src="/value-chain/images/Audit - Old Dashboard.png"
-                alt="Old dashboard showing connections and transactions between CNAE nodes"
+                alt="Previous dashboard showing connections and transactions between CNAE nodes"
                 className="w-full object-contain md720:mt-6 rounded-2xl mb-4 big-image" />
          
             <p className="text-sm text-gray-500 text-center mt-2 block italic mb-2 md720:mb-8">
@@ -290,7 +295,7 @@ export default function ProjectPage() {
             Improved Economic Insights
             </h4>
             <p className='text-slate-200'>
-            Over 8,000 interconnections at the CNAE level were successfully treated and translated visually, breaking down complex information and enabling a clearer understanding of financial relationships across sectors. This innovation facilitated Banco do Brasil to mitigate risks regarding corporate-client discontinuation and empowered the extraction of actionable insights to support decision-making processes.
+            Thousands of interconnections at the CNAE level were successfully processed and translated visually, breaking down complex information and enabling a clearer understanding of financial relationships across sectors. This innovation .helped the organization better understand sectoral interconnections and support strategic decision-making.
             </p>
           </div>
           {/*Results 02*/} 
