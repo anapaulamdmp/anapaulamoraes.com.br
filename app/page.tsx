@@ -10,13 +10,13 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="flex-1">
-            <h2 className="text-xl md:text-2xl font-medium text-foreground mb-2 xl:mb-4">Hi, I&apos;m Ana! 👋</h2>
+            <h2 className="text-xl md:text-xl font-medium text-foreground mb-2 xl:mb-4">Hi, I&apos;m Ana! 👋</h2>
             <h1
-              className={`leading-snug md:leading-snug font-normal text-foreground md:text-5xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
+              className={`leading-snug md:leading-snug font-normal text-foreground md:text-4xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
             >
               Inspired by craft and creativity & creating future-oriented experiences.
             </h1>
-            <p className="text-xl md:text-2xl font-normal text-muted-foreground mb-2 xl:mb-4 leading-relaxed">
+            <p className="text-xl md:text-xl font-normal text-muted-foreground mb-2 xl:mb-4 leading-relaxed">
               I&apos;m a senior designer based in Brazil with 8+ years of experience in tech and digital products,
               always exploring new grounds, ideas and taking on exciting projects.
             </p>
