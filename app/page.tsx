@@ -5,18 +5,18 @@ import { ExternalLink } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-background">
       {/* Header Section */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="flex-1">
-            <h2 className="text-xl md:text-2xl font-medium text-gray-900 mb-2 xl:mb-4">Hi, I&apos;m Ana! 👋</h2>
+            <h2 className="text-xl md:text-2xl font-medium text-foreground mb-2 xl:mb-4">Hi, I&apos;m Ana! 👋</h2>
             <h1
-              className={`leading-snug md:leading-snug font-normal text-gray-900 md:text-5xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
+              className={`leading-snug md:leading-snug font-normal text-foreground md:text-5xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
             >
               Inspired by craft and creativity & creating future-oriented experiences.
             </h1>
-            <p className="text-xl md:text-2xl font-normal text-gray-600 mb-2 xl:mb-4 leading-relaxed">
+            <p className="text-xl md:text-2xl font-normal text-muted-foreground mb-2 xl:mb-4 leading-relaxed">
               I&apos;m a senior designer based in Brazil with 8+ years of experience in tech and digital products,
               always exploring new grounds, ideas and taking on exciting projects.
             </p>
@@ -38,7 +38,7 @@ export default function Home() {
       {/* Projects Section */}
       <section className="max-w-4xl mx-auto px-6 pb-16 space-y-12">
         {/* Project 1 - Data Visualization */}
-        <Card className="p-8 bg-blue-100 border-0 shadow-sm">
+        <Card className="p-8 bg-blue-100 dark:bg-blue-900/20 border-0 shadow-sm">
           <div className="mb-6">
             <div className="bg-blue-900 rounded-lg p-6 mb-4">
               <Image
@@ -51,15 +51,15 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <span className="text-sm text-blue-700 font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-gray-900 mt-1">
+            <span className="text-sm text-blue-700 dark:text-blue-300 font-medium">2023</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1">
               Reshaping Data Visualization for Economic Activities
             </h3>
           </div>
         </Card>
 
         {/* Project 2 - Event Engagement */}
-        <Card className="p-8 bg-green-100 border-0 shadow-sm">
+        <Card className="p-8 bg-green-100 dark:bg-green-900/20 border-0 shadow-sm">
           <div className="mb-6">
             <div className="bg-white rounded-lg p-6 mb-4">
               <Image
@@ -72,15 +72,15 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <span className="text-sm text-green-700 font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-gray-900 mt-1">
+            <span className="text-sm text-green-700 dark:text-green-300 font-medium">2023</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1">
               Transforming Event Engagement with Customizable Solutions
             </h3>
           </div>
         </Card>
 
         {/* Project 3 - Brazilian Design */}
-        <Card className="p-8 bg-orange-100 border-0 shadow-sm">
+        <Card className="p-8 bg-orange-100 dark:bg-orange-900/20 border-0 shadow-sm">
           <div className="mb-6">
             <div className="bg-gray-900 rounded-lg p-6 mb-4">
               <Image
@@ -93,8 +93,8 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <span className="text-sm text-orange-700 font-medium">2021</span>
-            <h3 className="text-xl font-semibold text-gray-900 mt-1">Mapping Brazilian Design in 2021</h3>
+            <span className="text-sm text-orange-700 dark:text-orange-300 font-medium">2021</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1">Mapping Brazilian Design in 2021</h3>
           </div>
         </Card>
       </section>
@@ -103,20 +103,20 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4">Nice to meet you.</h3>
-            <p className="text-gray-600 max-w-md leading-relaxed">
+            <h3 className="text-2xl font-semibold text-foreground mb-4">Nice to meet you.</h3>
+            <p className="text-muted-foreground max-w-md leading-relaxed">
               I'm a brazilian designer based in 📍 Curitiba - PR. I'm continuously looking for cool opportunities to
               explore and work on. If you feel like we should work together, send me a message!
             </p>
           </div>
           <div>
-            <h4 className="text-sm font-medium text-gray-900 mb-4">Let's connect</h4>
+            <h4 className="text-sm font-medium text-foreground mb-4">Let's connect</h4>
             <div className="space-y-2">
-              <Button variant="ghost" className="justify-start p-0 h-auto text-gray-600 hover:text-gray-900">
+              <Button variant="ghost" className="justify-start p-0 h-auto text-muted-foreground hover:text-foreground">
                 <ExternalLink className="w-4 h-4 mr-2" />
                 LinkedIn
               </Button>
-              <Button variant="ghost" className="justify-start p-0 h-auto text-gray-600 hover:text-gray-900">
+              <Button variant="ghost" className="justify-start p-0 h-auto text-muted-foreground hover:text-foreground">
                 <ExternalLink className="w-4 h-4 mr-2" />
                 Instagram
               </Button>
@@ -126,8 +126,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-gray-200">
-        <p className="text-sm text-gray-500">© 2024 All rights reserved</p>
+      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border">
+        <p className="text-sm text-muted-foreground">© 2024 All rights reserved</p>
       </footer>
     </main>
   )
