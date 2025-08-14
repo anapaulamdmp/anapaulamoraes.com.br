@@ -12,7 +12,7 @@ export default function Home() {
           <div className="flex-1">
             <h2 className="text-xl md:text-xl font-medium text-foreground mb-2 xl:mb-4">Hi, I&apos;m Ana! 👋</h2>
             <h1
-              className={`leading-snug md:leading-snug font-normal text-foreground md:text-4xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
+              className={`leading-snug md:leading-snug font-normal text-foreground md:text-5xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
             >
               Inspired by craft and creativity & creating future-oriented experiences.
             </h1>
