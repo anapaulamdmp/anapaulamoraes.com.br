@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       {/* Header Section */}
-      <section className="max-w-4xl mx-auto px-6 py-16">
+      <section className="max-w-4xl mx-auto px-6 py-16 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="max-w-[640px]">
             <h2 className="font-medium text-foreground mb-2 xl:mb-4 text-lg">Hi, I&apos;m Ana! 👋</h2>
@@ -34,10 +34,10 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="max-w-4xl mx-auto px-6 pb-20">
+      <section className="max-w-4xl mx-auto px-6 pb-20 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards]">
         <div className="grid grid-rows-1 gap-8 md:gap-16">
           {/* Project 1 - Data Visualization */}
-          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02]">
+          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.0s_forwards]">
             <div className="flex bg-blue-100 dark:bg-blue-900/20 rounded-md md:rounded-xl">
               <Image
                 src="/placeholder-2rj1q.png"
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
 
           {/* Project 2 - Event Engagement */}
-          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02]">
+          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.4s_forwards]">
             <div className="flex bg-green-100 dark:bg-green-900/20 rounded-md md:rounded-xl">
               <Image
                 src="/event-dashboard-customizable-pie.png"
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
 
           {/* Project 3 - Brazilian Design */}
-          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02]">
+          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.8s_forwards]">
             <div className="flex bg-orange-100 dark:bg-orange-900/20 rounded-md md:rounded-xl">
               <Image
                 src="/brazilian-design-bar-chart.png"
@@ -117,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10">
+      <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* First Column - Heading */}
           <div className="md:col-span-1">
@@ -185,7 +185,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border pb-24">
+      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border pb-24 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.6s_forwards]">
         <p className="text-sm text-muted-foreground">© 2024 All rights reserved</p>
       </footer>
     </main>
