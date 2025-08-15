@@ -7,7 +7,7 @@ export default function Home() {
       {/* Header Section */}
       <section className="max-w-4xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
-          <div className="flex-1">
+          <div className="max-w-[640px]">
             <h2 className="font-medium text-foreground mb-2 xl:mb-4 text-lg">Hi, I&apos;m Ana! 👋</h2>
             <h1
               className={`leading-snug md:leading-snug font-normal text-foreground text-2xl transition-all duration-[800ms] mb-2 xl:mb-4 md:text-4xl`}
