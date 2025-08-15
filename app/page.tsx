@@ -38,7 +38,7 @@ export default function Home() {
         <div className="grid grid-rows-1 gap-8 md:gap-16">
           {/* Project 1 - Data Visualization */}
           <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.0s_forwards]">
-            <div className="flex bg-blue-100 dark:bg-blue-900/20 rounded-md md:rounded-xl">
+            <div className="flex bg-blue-100 dark:bg-blue-900/20 rounded-xl">
               <Image
                 src="/placeholder-2rj1q.png"
                 alt="Data Visualization Dashboard"
@@ -64,7 +64,7 @@ export default function Home() {
 
           {/* Project 2 - Event Engagement */}
           <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.4s_forwards]">
-            <div className="flex bg-green-100 dark:bg-green-900/20 rounded-md md:rounded-xl">
+            <div className="flex bg-green-100 dark:bg-green-900/20 rounded-xl">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PersonalizacaoRoleta-Cover-R78UlxkwXe5nPguuwRFL9oBqx8momF.png"
                 alt="Event Engagement Platform"
@@ -90,7 +90,7 @@ export default function Home() {
 
           {/* Project 3 - Brazilian Design */}
           <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.8s_forwards]">
-            <div className="flex bg-orange-100 dark:bg-orange-900/20 rounded-md md:rounded-xl">
+            <div className="flex bg-orange-100 dark:bg-orange-900/20 rounded-xl">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RBD21-Cover-kmuifYvCebHH6IzUNyqvLtNHOfN52o.png"
                 alt="Brazilian Design Mapping"
