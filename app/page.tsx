@@ -9,13 +9,13 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="flex-1">
-            <h2 className="text-xl md:text-xl font-medium text-foreground mb-2 xl:mb-4">Hi, I&apos;m Ana! 👋</h2>
+            <h2 className="font-medium text-foreground mb-2 xl:mb-4 text-lg">Hi, I&apos;m Ana! 👋</h2>
             <h1
-              className={`leading-snug md:leading-snug font-normal text-foreground md:text-5xl text-2xl transition-all duration-[800ms] mb-2 xl:mb-4`}
+              className={`leading-snug md:leading-snug font-normal text-foreground text-2xl transition-all duration-[800ms] mb-2 xl:mb-4 md:text-4xl`}
             >
               Inspired by craft and creativity & creating future-oriented experiences.
             </h1>
-            <p className="text-xl md:text-xl font-normal text-muted-foreground mb-2 xl:mb-4 leading-relaxed">
+            <p className="text-xl font-normal text-muted-foreground mb-2 xl:mb-4 leading-relaxed md:text-lg">
               I&apos;m a senior designer based in Brazil with 8+ years of experience in tech and digital products,
               always exploring new grounds, ideas and taking on exciting projects.
             </p>
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-4xl mx-auto px-6 py-16">
+      <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* First Column - Heading */}
           <div className="md:col-span-1">
@@ -158,7 +158,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border">
+      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border pb-24">
         <p className="text-sm text-muted-foreground">© 2024 All rights reserved</p>
       </footer>
     </main>
