@@ -117,7 +117,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
+      <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10 mb-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* First Column - Heading */}
           <div className="md:col-span-1 flex flex-col">
