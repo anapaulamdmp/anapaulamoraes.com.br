@@ -56,8 +56,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
               <div className="grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-normal">
-                <span className="text-sm col-span-2 text-blue-700">2024</span>
-                <span className="w-full col-span-2">Reshaping Data Visualization for Economic Activities</span>
+                <span className="text-sm col-span-2 text-foreground">2024</span>
+                <span className="w-full col-span-2 text-foreground">
+                  Reshaping Data Visualization for Economic Activities
+                </span>
               </div>
             </div>
           </div>
@@ -82,8 +84,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
               <div className="grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-normal">
-                <span className="text-sm col-span-2 text-blue-700">2024</span>
-                <span className="w-full col-span-2">Transforming Event Engagement with Customizable Solutions</span>
+                <span className="text-sm col-span-2 text-foreground">2024</span>
+                <span className="w-full col-span-2 text-foreground">
+                  Transforming Event Engagement with Customizable Solutions
+                </span>
               </div>
             </div>
           </div>
@@ -108,8 +112,8 @@ export default function Home() {
             </div>
             <div className="flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
               <div className="grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-normal">
-                <span className="text-sm col-span-2 text-blue-700">2021</span>
-                <span className="w-full col-span-2">Mapping Brazilian Design in 2021</span>
+                <span className="text-sm col-span-2 text-foreground">2021</span>
+                <span className="w-full col-span-2 text-foreground">Mapping Brazilian Design in 2021</span>
               </div>
             </div>
           </div>
