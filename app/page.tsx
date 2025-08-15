@@ -49,8 +49,8 @@ export default function Home() {
             </div>
           </div>
           <div className="px-2">
-            <span className="text-sm text-muted-foreground font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-600 transition-colors duration-300">
+            <span className="text-sm text-blue-700 font-medium">2023</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-700 transition-colors duration-300">
               Reshaping Data Visualization for Economic Activities
             </h3>
           </div>
@@ -70,8 +70,8 @@ export default function Home() {
             </div>
           </div>
           <div className="px-2">
-            <span className="text-sm text-muted-foreground font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-600 transition-colors duration-300">
+            <span className="text-sm text-blue-700 font-medium">2023</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-700 transition-colors duration-300">
               Transforming Event Engagement with Customizable Solutions
             </h3>
           </div>
@@ -91,8 +91,8 @@ export default function Home() {
             </div>
           </div>
           <div className="px-2">
-            <span className="text-sm text-muted-foreground font-medium">2021</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-600 transition-colors duration-300">
+            <span className="text-sm text-blue-700 font-medium">2021</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-700 transition-colors duration-300">
               Mapping Brazilian Design in 2021
             </h3>
           </div>
