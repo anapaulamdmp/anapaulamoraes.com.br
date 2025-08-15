@@ -126,7 +126,7 @@ export default function Home() {
 
           {/* Second Column - Paragraph Content */}
           <div className="md:col-span-2">
-            <div className="max-w-md">
+            <div className="w-full">
               <p className="text-muted-foreground leading-relaxed mb-4">
                 I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing.
                 My journey with design started when I was only 11, making tutorials for photoshop in youtube and forums
