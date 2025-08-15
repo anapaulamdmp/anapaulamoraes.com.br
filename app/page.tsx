@@ -104,14 +104,21 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-4">Nice to meet you.</h3>
-            <p className="text-muted-foreground max-w-md leading-relaxed">
-              I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing. My
-              journey with design started when I was only 11, making tutorials for photoshop in youtube and forums as a
-              hobby. Since then I've built a background in graphic design, front-end, back-end, 3d modeling, dataviz,
-              game dev and UX/UI design, always caring about processes and details that make all the difference. My next
-              step is taking woodworking/carpentry classes and bring to life some of my design vision - but on
-              furnitures. If you think we'd make a great team, send me a message!
-            </p>
+            <div className="max-w-md">
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing.
+                My journey with design started when I was only 11, making tutorials for photoshop in youtube and forums
+                as a hobby.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Since then I've built a background in graphic design, front-end, back-end, 3d modeling, dataviz, game
+                dev and UX/UI design, always caring about processes and details that make all the difference.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                My next step is taking woodworking/carpentry classes and bring to life some of my design vision - but on
+                furnitures. If you think we'd make a great team, send me a message!
+              </p>
+            </div>
           </div>
           <div>
             <h4 className="text-sm font-medium text-foreground mb-4">Let's connect</h4>
