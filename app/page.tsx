@@ -122,7 +122,7 @@ export default function Home() {
           {/* First Column - Heading */}
           <div className="md:col-span-1 flex flex-col">
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
-            <div className="w-full flex-1 overflow-hidden rounded-md object-cover h-40">
+            <div className="flex-1 overflow-hidden rounded-md object-cover h-40 w-full">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
