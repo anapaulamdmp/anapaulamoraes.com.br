@@ -100,9 +100,14 @@ export default function Home() {
 
       {/* Contact Section */}
       <section className="max-w-4xl mx-auto px-6 py-16">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-          <div>
-            <h3 className="text-2xl font-semibold text-foreground mb-4">Nice to meet you.</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          {/* First Column - Heading */}
+          <div className="md:col-span-1">
+            <h3 className="text-2xl font-semibold text-foreground">Nice to meet you.</h3>
+          </div>
+
+          {/* Second Column - Paragraph Content */}
+          <div className="md:col-span-2">
             <div className="max-w-md">
               <p className="text-muted-foreground leading-relaxed mb-4">
                 I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing.
@@ -119,35 +124,35 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Let's Connect */}
-          <div className="flex flex-col md:flex-row w-full gap-4 pt-4">
-            {/* Left Column (1/3 on large screens) */}
-            <div className="w-full mt-9 md:mt-0 md:w-1/3 rounded-xl">
-              <h3 className="text-xl md:text-2xl font-semibold md:font-normal text-foreground">Let&apos;s connect</h3>
-            </div>
+        {/* Let's Connect */}
+        <div className="flex flex-col md:flex-row w-full gap-4 pt-4">
+          {/* Left Column (1/3 on large screens) */}
+          <div className="w-full mt-9 md:mt-0 md:w-1/3 rounded-xl">
+            <h3 className="text-xl md:text-2xl font-semibold md:font-normal text-foreground">Let&apos;s connect</h3>
+          </div>
 
-            {/* Right Column (2/3 on large screens) */}
-            <div className="w-full md:w-2/3 rounded-xl flex flex-col">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/anapaulamoraesdsgn/"
-                className="flex flex-row w-full py-4 md:py-6 border-t-[1px] border-border justify-between items-center text-foreground text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
-                rel="noreferrer"
-              >
-                <span>Linkedin</span>
-                <SquareArrowOutUpRight className="w-5 h-5" />
-              </a>
-              <a
-                target="_blank"
-                href="https://instagram.com/paulamdmp"
-                className="flex flex-row w-full py-4 md:py-6 border-t-[1px] md:border-y-[1px] border-border justify-between items-center text-foreground text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
-                rel="noreferrer"
-              >
-                <span>Instagram</span>
-                <SquareArrowOutUpRight className="w-5 h-5" />
-              </a>
-            </div>
+          {/* Right Column (2/3 on large screens) */}
+          <div className="w-full md:w-2/3 rounded-xl flex flex-col">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/anapaulamoraesdsgn/"
+              className="flex flex-row w-full py-4 md:py-6 border-t-[1px] border-border justify-between items-center text-foreground text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
+              rel="noreferrer"
+            >
+              <span>Linkedin</span>
+              <SquareArrowOutUpRight className="w-5 h-5" />
+            </a>
+            <a
+              target="_blank"
+              href="https://instagram.com/paulamdmp"
+              className="flex flex-row w-full py-4 md:py-6 border-t-[1px] md:border-y-[1px] border-border justify-between items-center text-foreground text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
+              rel="noreferrer"
+            >
+              <span>Instagram</span>
+              <SquareArrowOutUpRight className="w-5 h-5" />
+            </a>
           </div>
         </div>
       </section>
