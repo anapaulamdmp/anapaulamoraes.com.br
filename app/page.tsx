@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { ExternalLink } from "lucide-react"
+import { SquareArrowOutUpRight } from "lucide-react"
 
 export default function Home() {
   return (
@@ -120,17 +119,34 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
-            <h4 className="text-sm font-medium text-foreground mb-4">Let's connect</h4>
-            <div className="space-y-2">
-              <Button variant="ghost" className="justify-start p-0 h-auto text-muted-foreground hover:text-foreground">
-                <ExternalLink className="w-4 h-4 mr-2" />
-                LinkedIn
-              </Button>
-              <Button variant="ghost" className="justify-start p-0 h-auto text-muted-foreground hover:text-foreground">
-                <ExternalLink className="w-4 h-4 mr-2" />
-                Instagram
-              </Button>
+
+          {/* Let's Connect */}
+          <div className="flex flex-col md:flex-row w-full gap-4 pt-4">
+            {/* Left Column (1/3 on large screens) */}
+            <div className="w-full mt-9 md:mt-0 md:w-1/3 rounded-xl">
+              <h3 className="text-xl md:text-2xl font-semibold md:font-normal text-foreground">Let&apos;s connect</h3>
+            </div>
+
+            {/* Right Column (2/3 on large screens) */}
+            <div className="w-full md:w-2/3 rounded-xl flex flex-col">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/anapaulamoraesdsgn/"
+                className="flex flex-row w-full py-4 md:py-6 border-t-[1px] border-border justify-between items-center text-foreground text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
+                rel="noreferrer"
+              >
+                <span>Linkedin</span>
+                <SquareArrowOutUpRight className="w-5 h-5" />
+              </a>
+              <a
+                target="_blank"
+                href="https://instagram.com/paulamdmp"
+                className="flex flex-row w-full py-4 md:py-6 border-t-[1px] md:border-y-[1px] border-border justify-between items-center text-foreground text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
+                rel="noreferrer"
+              >
+                <span>Instagram</span>
+                <SquareArrowOutUpRight className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>
