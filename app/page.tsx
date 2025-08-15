@@ -126,8 +126,6 @@ export default function Home() {
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
-                width={400}
-                height={600}
                 className="w-full h-full object-cover"
               />
             </div>
