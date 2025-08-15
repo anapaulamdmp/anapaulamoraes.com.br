@@ -24,6 +24,28 @@ export const designTokens = {
   spacing: {
     // Add spacing tokens here as needed
   },
+  components: {
+    project: {
+      borderRadius: "8px",
+      hoverScale: "1.02",
+      transitionDuration: "500ms",
+      imageAspectRatio: {
+        desktop: "16/10",
+        mobile: "4/3",
+      },
+      content: {
+        padding: {
+          mobile: "1rem",
+          desktop: "2rem",
+        },
+        yearFontSize: "0.875rem", // text-sm
+        titleFontSize: {
+          mobile: "1.25rem", // text-xl
+          desktop: "1.5rem", // text-2xl
+        },
+      },
+    },
+  },
   // Add more design tokens as needed
 } as const
 
