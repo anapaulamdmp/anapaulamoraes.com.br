@@ -34,7 +34,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="max-w-4xl mx-auto px-6 pb-20 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards]">
+      <section className="max-w-4xl mx-auto px-6 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards] pb-36">
         <div className="grid grid-rows-1 gap-8 md:gap-16">
           {/* Project 1 - Data Visualization */}
           <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.0s_forwards]">
