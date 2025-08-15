@@ -120,9 +120,9 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* First Column - Heading */}
-          <div className="md:col-span-1 flex flex-col">
+          <div className="md:col-span-1 self-start">
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
-            <div className="w-full flex-1 max-h-96 rounded-lg overflow-hidden">
+            <div className="w-full rounded-lg overflow-hidden">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
