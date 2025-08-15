@@ -148,7 +148,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row w-full gap-4 pt-4">
           {/* Left Column (1/3 on large screens) */}
           <div className="w-full mt-9 md:mt-0 md:w-1/3 rounded-xl">
-            <h3 className="text-xl md:text-2xl font-semibold md:font-normal text-foreground">Let&apos;s connect</h3>
+            <h3 className="font-semibold md:font-normal text-foreground text-xl">Let&apos;s connect</h3>
           </div>
 
           {/* Right Column (2/3 on large screens) */}
