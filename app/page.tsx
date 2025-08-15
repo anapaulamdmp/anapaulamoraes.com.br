@@ -122,7 +122,7 @@ export default function Home() {
           {/* First Column - Heading */}
           <div className="md:col-span-1 self-start">
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
-            <div className="w-full rounded-lg overflow-hidden">
+            <div className="w-full overflow-hidden rounded-md">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
@@ -146,8 +146,7 @@ export default function Home() {
                 dev and UX/UI design, always caring about processes and details that make all the difference.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                My next step is taking woodworking/carpentry classes and bring to life some of my design vision - but on
-                furnitures. If you think we'd make a great team, send me a message!
+                My next adventure is taking woodworking/carpentry classes to bring to life some of my design vision - but on furnitures. If you think we'd make a great team, send me a message!
               </p>
             </div>
           </div>
