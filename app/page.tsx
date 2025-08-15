@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       {/* Header Section */}
-      <section className="max-w-4xl mx-auto px-6 py-16">
+      <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="max-w-[640px]">
             <h2 className="font-medium text-foreground mb-2 xl:mb-4 text-lg">Hi, I&apos;m Ana! 👋</h2>
