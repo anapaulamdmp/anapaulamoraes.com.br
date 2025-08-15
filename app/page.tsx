@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Card } from "@/components/ui/card"
 import { SquareArrowOutUpRight } from "lucide-react"
 
 export default function Home() {
@@ -37,65 +36,67 @@ export default function Home() {
       {/* Projects Section */}
       <section className="max-w-4xl mx-auto px-6 pb-16 space-y-12">
         {/* Project 1 - Data Visualization */}
-        <Card className="p-8 bg-blue-100 dark:bg-blue-900/20 border-0 shadow-sm">
-          <div className="mb-6">
-            <div className="bg-blue-900 rounded-lg p-6 mb-4">
+        <div className="group cursor-pointer transition-transform duration-300 hover:scale-110">
+          <div className="bg-blue-100 dark:bg-blue-900/20 rounded-lg p-6 mb-4">
+            <div className="aspect-video bg-blue-900 rounded-lg p-6 group-hover:opacity-80 transition-opacity duration-300">
               <Image
                 src="/placeholder-2rj1q.png"
                 alt="Data Visualization Dashboard"
                 width={400}
-                height={200}
-                className="w-full rounded"
+                height={225}
+                className="w-full h-full object-cover rounded"
               />
             </div>
           </div>
-          <div>
-            <span className="text-sm text-blue-700 dark:text-blue-300 font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1">
+          <div className="px-2">
+            <span className="text-sm text-muted-foreground font-medium">2023</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-600 transition-colors duration-300">
               Reshaping Data Visualization for Economic Activities
             </h3>
           </div>
-        </Card>
+        </div>
 
         {/* Project 2 - Event Engagement */}
-        <Card className="p-8 bg-green-100 dark:bg-green-900/20 border-0 shadow-sm">
-          <div className="mb-6">
-            <div className="bg-white rounded-lg p-6 mb-4">
+        <div className="group cursor-pointer transition-transform duration-300 hover:scale-110">
+          <div className="bg-green-100 dark:bg-green-900/20 rounded-lg p-6 mb-4">
+            <div className="aspect-video bg-white rounded-lg p-6 group-hover:opacity-80 transition-opacity duration-300">
               <Image
                 src="/event-dashboard-customizable-pie.png"
                 alt="Event Engagement Platform"
                 width={400}
-                height={200}
-                className="w-full rounded"
+                height={225}
+                className="w-full h-full object-cover rounded"
               />
             </div>
           </div>
-          <div>
-            <span className="text-sm text-green-700 dark:text-green-300 font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1">
+          <div className="px-2">
+            <span className="text-sm text-muted-foreground font-medium">2023</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-600 transition-colors duration-300">
               Transforming Event Engagement with Customizable Solutions
             </h3>
           </div>
-        </Card>
+        </div>
 
         {/* Project 3 - Brazilian Design */}
-        <Card className="p-8 bg-orange-100 dark:bg-orange-900/20 border-0 shadow-sm">
-          <div className="mb-6">
-            <div className="bg-gray-900 rounded-lg p-6 mb-4">
+        <div className="group cursor-pointer transition-transform duration-300 hover:scale-110">
+          <div className="bg-orange-100 dark:bg-orange-900/20 rounded-lg p-6 mb-4">
+            <div className="aspect-video bg-gray-900 rounded-lg p-6 group-hover:opacity-80 transition-opacity duration-300">
               <Image
                 src="/brazilian-design-bar-chart.png"
                 alt="Brazilian Design Mapping"
                 width={400}
-                height={200}
-                className="w-full rounded"
+                height={225}
+                className="w-full h-full object-cover rounded"
               />
             </div>
           </div>
-          <div>
-            <span className="text-sm text-orange-700 dark:text-orange-300 font-medium">2021</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1">Mapping Brazilian Design in 2021</h3>
+          <div className="px-2">
+            <span className="text-sm text-muted-foreground font-medium">2021</span>
+            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-600 transition-colors duration-300">
+              Mapping Brazilian Design in 2021
+            </h3>
           </div>
-        </Card>
+        </div>
       </section>
 
       {/* Contact Section */}
