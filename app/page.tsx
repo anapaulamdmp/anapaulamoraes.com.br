@@ -120,21 +120,21 @@ export default function Home() {
       <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* First Column - Heading */}
-          <div className="md:col-span-1 self-start">
+          <div className="md:col-span-1">
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
-            <div className="w-full overflow-hidden rounded-md">
+            <div className="w-[50px] h-[50px] overflow-hidden rounded-md">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
-                width={400}
-                height={600}
+                width={50}
+                height={50}
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           {/* Second Column - Paragraph Content */}
-          <div className="md:col-span-2 self-start">
+          <div className="md:col-span-2">
             <div className="w-full">
               <p className="text-muted-foreground leading-relaxed mb-4">
                 I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing.
@@ -146,7 +146,8 @@ export default function Home() {
                 dev and UX/UI design, always caring about processes and details that make all the difference.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                My next adventure is taking woodworking/carpentry classes to bring to life some of my design vision - but on furnitures. If you think we'd make a great team, send me a message!
+                My next adventure is taking woodworking/carpentry classes to bring to life some of my design vision -
+                but on furnitures. If you think we'd make a great team, send me a message!
               </p>
             </div>
           </div>
