@@ -176,7 +176,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border pb-24">
+      <footer className="max-w-6xl mx-auto px-6 py-8 border-t border-border pb-24">
         <p className="text-sm text-muted-foreground">© 2024 All rights reserved</p>
       </footer>
     </main>
