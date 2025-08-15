@@ -34,67 +34,84 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="max-w-4xl mx-auto px-6 pb-16 space-y-12">
-        {/* Project 1 - Data Visualization */}
-        <div className="group cursor-pointer transition-transform duration-300 hover:scale-110">
-          <div className="bg-blue-100 dark:bg-blue-900/20 rounded-lg p-6 mb-4">
-            <div className="aspect-video bg-blue-900 rounded-lg p-6 group-hover:opacity-80 transition-opacity duration-300">
+      <section className="max-w-4xl mx-auto px-6 pb-16">
+        <div className="grid grid-rows-1 gap-8 md:gap-16">
+          {/* Project 1 - Data Visualization */}
+          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02]">
+            <div className="flex bg-blue-100 dark:bg-blue-900/20 rounded-md md:rounded-xl">
+              <Image
+                src="/placeholder-2rj1q.png"
+                alt="Data Visualization Dashboard"
+                width={800}
+                height={500}
+                className="hidden md:block w-full rounded-2xl aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
+              />
               <Image
                 src="/placeholder-2rj1q.png"
                 alt="Data Visualization Dashboard"
                 width={400}
-                height={225}
-                className="w-full h-full object-cover rounded"
+                height={300}
+                className="md:hidden w-full rounded-lg aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
               />
             </div>
+            <div className="flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
+              <div className="grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-semibold">
+                <span className="text-sm col-span-2 text-blue-700">2024</span>
+                <span className="w-full col-span-2">Reshaping Data Visualization for Economic Activities</span>
+              </div>
+            </div>
           </div>
-          <div className="px-2">
-            <span className="text-sm text-blue-700 font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-700 transition-colors duration-300">
-              Reshaping Data Visualization for Economic Activities
-            </h3>
-          </div>
-        </div>
 
-        {/* Project 2 - Event Engagement */}
-        <div className="group cursor-pointer transition-transform duration-300 hover:scale-110">
-          <div className="bg-green-100 dark:bg-green-900/20 rounded-lg p-6 mb-4">
-            <div className="aspect-video bg-white rounded-lg p-6 group-hover:opacity-80 transition-opacity duration-300">
+          {/* Project 2 - Event Engagement */}
+          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02]">
+            <div className="flex bg-green-100 dark:bg-green-900/20 rounded-md md:rounded-xl">
+              <Image
+                src="/event-dashboard-customizable-pie.png"
+                alt="Event Engagement Platform"
+                width={800}
+                height={500}
+                className="hidden md:block w-full rounded-2xl aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
+              />
               <Image
                 src="/event-dashboard-customizable-pie.png"
                 alt="Event Engagement Platform"
                 width={400}
-                height={225}
-                className="w-full h-full object-cover rounded"
+                height={300}
+                className="md:hidden w-full rounded-lg aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
               />
             </div>
+            <div className="flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
+              <div className="grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-semibold">
+                <span className="text-sm col-span-2 text-blue-700">2024</span>
+                <span className="w-full col-span-2">Transforming Event Engagement with Customizable Solutions</span>
+              </div>
+            </div>
           </div>
-          <div className="px-2">
-            <span className="text-sm text-blue-700 font-medium">2023</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-700 transition-colors duration-300">
-              Transforming Event Engagement with Customizable Solutions
-            </h3>
-          </div>
-        </div>
 
-        {/* Project 3 - Brazilian Design */}
-        <div className="group cursor-pointer transition-transform duration-300 hover:scale-110">
-          <div className="bg-orange-100 dark:bg-orange-900/20 rounded-lg p-6 mb-4">
-            <div className="aspect-video bg-gray-900 rounded-lg p-6 group-hover:opacity-80 transition-opacity duration-300">
+          {/* Project 3 - Brazilian Design */}
+          <div className="flex flex-col transition-all duration-500 text-xl md:text-2xl text-gray-800 hover:text-blue-700 hover:scale-[1.02]">
+            <div className="flex bg-orange-100 dark:bg-orange-900/20 rounded-md md:rounded-xl">
+              <Image
+                src="/brazilian-design-bar-chart.png"
+                alt="Brazilian Design Mapping"
+                width={800}
+                height={500}
+                className="hidden md:block w-full rounded-2xl aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
+              />
               <Image
                 src="/brazilian-design-bar-chart.png"
                 alt="Brazilian Design Mapping"
                 width={400}
-                height={225}
-                className="w-full h-full object-cover rounded"
+                height={300}
+                className="md:hidden w-full rounded-lg aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
               />
             </div>
-          </div>
-          <div className="px-2">
-            <span className="text-sm text-blue-700 font-medium">2021</span>
-            <h3 className="text-xl font-semibold text-foreground mt-1 group-hover:text-blue-700 transition-colors duration-300">
-              Mapping Brazilian Design in 2021
-            </h3>
+            <div className="flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
+              <div className="grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-semibold">
+                <span className="text-sm col-span-2 text-blue-700">2021</span>
+                <span className="w-full col-span-2">Mapping Brazilian Design in 2021</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
