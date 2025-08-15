@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex-shrink-0">
             <div className="w-16 h-16 rounded-full bg-gray-800 overflow-hidden">
               <Image
-                src="/ana-paula-headshot.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
                 width={64}
                 height={64}
