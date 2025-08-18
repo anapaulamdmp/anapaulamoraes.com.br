@@ -130,7 +130,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
             <div className="w-full aspect-[4/3] overflow-hidden rounded-sm">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Profile_Img-8jTx9lW1K0J6XNqBmhCzdju52PtvaJ.png"
                 alt="Ana Paula Moraes"
                 width={400}
                 height={300}
