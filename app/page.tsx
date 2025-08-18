@@ -3,7 +3,7 @@ import { SquareArrowOutUpRight } from "lucide-react"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-white">
       {/* Header Section */}
       <section className="max-w-4xl mx-auto px-6 py-16 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8">
