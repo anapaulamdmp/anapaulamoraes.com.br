@@ -124,7 +124,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <section className="max-w-4xl mx-auto px-6 py-16 border-solid border border-b-[0] border-r-0 border-l-0 pt-10 mb-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-4">
           {/* First Column - Heading */}
           <div className="md:col-span-1 flex flex-col">
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
 
         {/* Let's Connect */}
-        <div className="flex flex-col md:flex-row w-full gap-4 pt-4">
+        <div className="flex flex-col md:flex-row w-full pt-4 gap-4">
           {/* Left Column (1/3 on large screens) */}
           <div className="w-full mt-9 md:mt-0 md:w-1/3 rounded-xl">
             <h3 className="font-semibold md:font-normal text-foreground text-xl">Let&apos;s connect</h3>
