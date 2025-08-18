@@ -140,7 +140,7 @@ export default function Home() {
           </div>
 
           {/* Second Column - Paragraph Content */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 flex items-center">
             <div className="w-full">
               <p className="text-muted-foreground leading-relaxed mb-4">
                 I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing.
