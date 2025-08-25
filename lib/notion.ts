@@ -18,27 +18,31 @@ export async function getProjects(): Promise<Project[]> {
   try {
     const response = await notion.databases.query({
       database_id: process.env.NOTION_DATABASE_ID!,
-      sorts: [
-        {
-          property: "Year",
-          direction: "descending",
-        },
-      ],
     })
 
-    return response.results.map((page: any) => {
+    const projects = response.results.map((page: any) => {
       const properties = page.properties
 
       return {
         id: page.id,
         title: properties.Title?.title?.[0]?.plain_text || "",
-        year: properties.Year?.number?.toString() || "",
+        year: properties.Year?.number?.toString() || properties.year?.number?.toString() || "",
         coverImage:
-          properties.CoverImage?.files?.[0]?.file?.url || properties.CoverImage?.files?.[0]?.external?.url || "",
-        altText: properties.AltText?.rich_text?.[0]?.plain_text || "",
-        backgroundColor: properties.BackgroundColor?.select?.name || "blue",
-        slug: properties.Slug?.rich_text?.[0]?.plain_text || "",
+          properties.CoverImage?.files?.[0]?.file?.url ||
+          properties.CoverImage?.files?.[0]?.external?.url ||
+          properties.coverimage?.files?.[0]?.file?.url ||
+          properties.coverimage?.files?.[0]?.external?.url ||
+          "",
+        altText: properties.AltText?.rich_text?.[0]?.plain_text || properties.alttext?.rich_text?.[0]?.plain_text || "",
+        backgroundColor: properties.BackgroundColor?.select?.name || properties.backgroundcolor?.select?.name || "blue",
+        slug: properties.Slug?.rich_text?.[0]?.plain_text || properties.slug?.rich_text?.[0]?.plain_text || "",
       }
+    })
+
+    return projects.sort((a, b) => {
+      const yearA = Number.parseInt(a.year) || 0
+      const yearB = Number.parseInt(b.year) || 0
+      return yearB - yearA
     })
   } catch (error) {
     console.error("Error fetching projects from Notion:", error)
