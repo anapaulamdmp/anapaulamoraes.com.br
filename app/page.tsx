@@ -1,9 +1,46 @@
 import Image from "next/image"
-import { getProjects, getBackgroundColorClass } from "@/lib/notion"
 
-export default async function Home() {
-  const projects = await getProjects()
+const projects = [
+  {
+    id: "1",
+    title: "Reshaping Data Visualization for Economic Activities",
+    year: "2023",
+    coverImage: "/placeholder-2rj1q.png",
+    altText: "Data Visualization Dashboard",
+    backgroundColor: "blue",
+  },
+  {
+    id: "2",
+    title: "Transforming Event Engagement with Customizable Solutions",
+    year: "2022",
+    coverImage: "/personalizacao-roleta-cover.png",
+    altText: "Event Engagement Platform",
+    backgroundColor: "green",
+  },
+  {
+    id: "3",
+    title: "Mapping Brazilian Design in 2021",
+    year: "2021",
+    coverImage: "/rbd21-cover.png",
+    altText: "Brazilian Design Mapping",
+    backgroundColor: "orange",
+  },
+]
 
+function getBackgroundColorClass(color: string) {
+  switch (color) {
+    case "blue":
+      return "bg-blue-100 dark:bg-blue-900/20"
+    case "green":
+      return "bg-green-100 dark:bg-green-900/20"
+    case "orange":
+      return "bg-orange-100 dark:bg-orange-900/20"
+    default:
+      return "bg-gray-100 dark:bg-gray-900/20"
+  }
+}
+
+export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       {/* Header Section */}
@@ -24,7 +61,7 @@ export default async function Home() {
           <div className="flex-shrink-0">
             <div className="w-16 h-16 rounded-full bg-gray-800 overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
+                src="/ana-paula-profile.png"
                 alt="Ana Paula Moraes"
                 width={64}
                 height={64}
@@ -36,7 +73,7 @@ export default async function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="max-w-4xl mx-auto px-6 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards] pb-36">
+      <section className="max-w-[1240px] mx-auto px-6 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards] pb-36">
         <div className="grid grid-rows-1 gap-8 md:gap-16">
           {projects.map((project, index) => (
             <div
@@ -51,14 +88,14 @@ export default async function Home() {
               >
                 <Image
                   src={project.coverImage || "/placeholder.svg"}
-                  alt={project.altText || project.title}
+                  alt={project.altText}
                   width={800}
                   height={500}
                   className="project-image hidden md:block w-full rounded-[8px] aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
                 />
                 <Image
                   src={project.coverImage || "/placeholder.svg"}
-                  alt={project.altText || project.title}
+                  alt={project.altText}
                   width={400}
                   height={300}
                   className="project-image md:hidden w-full rounded-[8px] aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
@@ -83,7 +120,7 @@ export default async function Home() {
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
             <div className="w-full aspect-square overflow-hidden rounded-sm">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Profile_Img-tIfDdP9NpTCfv1Zlg0lDSQAVku9jgn.png"
+                src="/profile-img.png"
                 alt="Ana Paula Moraes"
                 width={400}
                 height={400}
