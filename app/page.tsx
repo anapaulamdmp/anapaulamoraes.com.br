@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { ExternalLink } from "lucide-react"
 import { getProjects, getBackgroundColorClass } from "@/lib/notion"
 
 export default async function Home() {
@@ -129,7 +128,7 @@ export default async function Home() {
               rel="noreferrer"
             >
               <span>Linkedin</span>
-              <ExternalLink className="w-5 h-5" />
+              <span className="text-sm">↗</span>
             </a>
             <a
               target="_blank"
@@ -138,7 +137,7 @@ export default async function Home() {
               rel="noreferrer"
             >
               <span>Instagram</span>
-              <ExternalLink className="w-5 h-5" />
+              <span className="text-sm">↗</span>
             </a>
           </div>
         </div>
