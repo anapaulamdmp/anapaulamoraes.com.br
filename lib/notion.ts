@@ -18,12 +18,12 @@ export async function getProjects(): Promise<Project[]> {
   try {
     const response = await notion.databases.query({
       database_id: process.env.NOTION_DATABASE_ID!,
-      filter: {
-        property: "Status",
-        select: {
-          equals: "Published",
+      sorts: [
+        {
+          property: "Year",
+          direction: "descending",
         },
-      },
+      ],
     })
 
     const projects = response.results.map((page: any) => {
