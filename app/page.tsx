@@ -1,46 +1,10 @@
 import Image from "next/image"
+import { SquareArrowOutUpRight } from "lucide-react"
+import { getProjects, getBackgroundColorClass, type Project } from "@/lib/notion"
 
-const projects = [
-  {
-    id: "1",
-    title: "Reshaping Data Visualization for Economic Activities",
-    year: "2023",
-    coverImage: "/data-viz-project-cover.png", // Updated to use the actual data visualization project cover instead of placeholder
-    altText: "Data Visualization Dashboard",
-    backgroundColor: "blue",
-  },
-  {
-    id: "2",
-    title: "Transforming Event Engagement with Customizable Solutions",
-    year: "2022",
-    coverImage: "/personalizacao-roleta-cover.png",
-    altText: "Event Engagement Platform",
-    backgroundColor: "green",
-  },
-  {
-    id: "3",
-    title: "Mapping Brazilian Design in 2021",
-    year: "2021",
-    coverImage: "/rbd21-cover.png",
-    altText: "Brazilian Design Mapping",
-    backgroundColor: "orange",
-  },
-]
+export default async function Home() {
+  const projects = await getProjects()
 
-function getBackgroundColorClass(color: string) {
-  switch (color) {
-    case "blue":
-      return "bg-blue-100 dark:bg-blue-900/20"
-    case "green":
-      return "bg-green-100 dark:bg-green-900/20"
-    case "orange":
-      return "bg-orange-100 dark:bg-orange-900/20"
-    default:
-      return "bg-gray-100 dark:bg-gray-900/20"
-  }
-}
-
-export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       {/* Header Section */}
@@ -61,7 +25,7 @@ export default function Home() {
           <div className="flex-shrink-0">
             <div className="w-16 h-16 rounded-full bg-gray-800 overflow-hidden">
               <Image
-                src="/ana-paula-profile.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
                 alt="Ana Paula Moraes"
                 width={64}
                 height={64}
@@ -73,9 +37,9 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="max-w-[1240px] mx-auto px-6 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards] pb-36">
+      <section className="max-w-4xl mx-auto px-6 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards] pb-36">
         <div className="grid grid-rows-1 gap-8 md:gap-16">
-          {projects.map((project, index) => (
+          {projects.map((project: Project, index: number) => (
             <div
               key={project.id}
               className="project-block flex flex-col transition-all duration-500 hover:scale-[1.02] opacity-0 translate-y-8"
@@ -120,7 +84,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
             <div className="w-full aspect-square overflow-hidden rounded-sm">
               <Image
-                src="/profile-img.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Profile_Img-tIfDdP9NpTCfv1Zlg0lDSQAVku9jgn.png"
                 alt="Ana Paula Moraes"
                 width={400}
                 height={400}
@@ -165,7 +129,7 @@ export default function Home() {
               rel="noreferrer"
             >
               <span>Linkedin</span>
-              <span className="text-sm">↗</span>
+              <SquareArrowOutUpRight className="w-5 h-5" />
             </a>
             <a
               target="_blank"
@@ -174,7 +138,7 @@ export default function Home() {
               rel="noreferrer"
             >
               <span>Instagram</span>
-              <span className="text-sm">↗</span>
+              <SquareArrowOutUpRight className="w-5 h-5" />
             </a>
           </div>
         </div>
