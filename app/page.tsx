@@ -5,7 +5,7 @@ const projects = [
     id: "1",
     title: "Reshaping Data Visualization for Economic Activities",
     year: "2023",
-    coverImage: "/placeholder-2rj1q.png",
+    coverImage: "/data-viz-project-cover.png", // Updated to use the actual data visualization project cover instead of placeholder
     altText: "Data Visualization Dashboard",
     backgroundColor: "blue",
   },
