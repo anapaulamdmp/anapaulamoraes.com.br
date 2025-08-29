@@ -52,7 +52,7 @@ export default function ProjectPage() {
               Redesign the experience
             </h4>
             <p>
-              The dashboard was complex and had many steps to every action, making the overall experience draining and laborious, unnapropriated for general public
+              The original data dashboard was confusing and demanded more steps than necessary to achieve a desired outcome, making the overall experience draining and laborious
             </p>
           </div>
           {/*Destaque 02 - Organize the data*/} 
@@ -61,7 +61,7 @@ export default function ProjectPage() {
               Organize the data
             </h4>
             <p>
-                The current solution for the visualization of the value chain&apos;s data was complex, unordered and had a messy display of informations          
+                The original dashboard for the economic&apos;s value chain was complex, disconnected and had a messy display of information          
             </p>
           </div>
           {/*Destaque 03 - Enchant the audience*/} 
