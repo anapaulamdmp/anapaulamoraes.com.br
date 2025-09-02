@@ -2,19 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@custom-variant dark (&:is(.dark *));
+
+/*:root {
+  --background: #FCFCFC;
+  --foreground: #111214;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+[data-theme="dark"] {
+  --background: #0A0A0A;
+  --foreground: #FCFCFC;
+  
+}*/
+body {
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>👀</text></svg>") 16 16, auto;
 }
+
 
 .big-image{
   max-width: none;
@@ -32,18 +35,13 @@
   max-width: 920px;
 }
 
-body, p {
-  color: rgb(var(--foreground-rgb));
+p {
   font-size: 18px;
   line-height: 180%;
-  /*font-family: 'Inter', cursive;*/
-  /*background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)
-    );*/
+}
+
+body {
+  background-color: var(--background);
 }
 
 h1{
@@ -70,3 +68,4 @@ hr{
   border-width: 5px;
   border-color: #DCDBDF;
 }
+

@@ -1,6 +1,8 @@
 'use client'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
+import { SquareArrowOutUpRight } from "lucide-react"
+
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -27,187 +29,197 @@ export default function Home() {
 
 
   return (
-    <div className='flex flex-col w-screen '>
-
-      <div className='flex flex-col flex-1 relative overflow-auto items-center'>
-          
-          {/* Content div */}
-          <div className='flex flex-col items-center flex-1 max-w-screen-2xl justify-self-center'>    
-          <header className='sticky top-0 bg-slate-50 px-6 flex flex-col pt-32'>
-              
-              {/* Header */}
-              <div className='flex flex-col xl:flex-row w-full xl:max-w-[1024px] justify-between align-middle'>
-                  
-                  {/* Description */}
-                  <div className='flex flex-col max-w-[920px] order-2 xl:order-1'>
-                      <h1 className='text-2xl font-medium text-gray-900 mb-4 xl:mb-16'>Hi, my name is Ana! &#x1F44B;</h1>
-                      <h2 className={`font-dmSans leading-snug md720:leading-snug font-bold text-gray-900 md720:text-4xl text-3xl transition-all duration-[800ms] ${isScrolled ? 'text-sm' : ''}`}>
-                        I&apos;m a designer creating future-oriented products and experiences that drive business impact and transform how people interact with the world.
-                      </h2>
-                  </div>
-
-                  {/* Profile Picture (Full width on mobile, fixed size on larger screens)*/}
-                  <div className='flex w-full xl:w-1/3  justify-start xl:justify-end mb-8 xl:mb-0 order-1 xl:order-2 xl:ml-24'>
-                      <div className='flex w-20 h-20 justify-end'>
-                      <div className='flex w-5 h-5 rounded-full border-white border-2 bg-green-500 self-end relative z-50'/>
-                        <Image src='/images/Profile_Picture.png' alt='Profile' width={80} height={80} className='w-20 h-20 rounded-full justify-end' />
-                        
-                      </div>
-                  </div>
-
-              </div>
-
-              {/* Project Section Title
-              <div id='Content_header' className='flex flex-col mt-6'>
-                <h2 className='font-medium  text-sm mt-16 pb-2 text-slate-500 uppercase tracking-widest'>Check out my work</h2>
-              </div>*/}
-
-            </header>
-
-            {/* Project listing */}
-            <main id="Content" className="flex-1 mt-10 md720:mt-32 px-6">
-              <div id='#portfolio' className='flex max-920 md:max-w-[1024px]'>
-                <div className='grid grid-rows-1 gap-8 md720:gap-16'>
-
-                  {/* Project 01 */}
-                  <div className='flex flex-col bg-slate-950 rounded-2xl hover:bg-blue-950 transition-all duration-[500ms]  text-lg lg:text-3xl text-gray-100 hover:text-white hover:scale-[1.02] hover:shadow-2xl'>
-                    <a href='/projects/value-chain'>
-                      <Image src='/value-chain/images/Cover.png' className='w-full rounded-t-2xl aspect-[24/9] object-cover hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
-                    </a>
-
-                    <div className='flex flex-col flex-1 w-full px-10 py-8 rounded-b-2xl'>
-                        {/* Title and Button Container */}
-                        <div className='grid grid-cols-3 items-center align-middle h-full'>
-                          {/* Project Title (Spanning 2 columns) */}
-                          <a
-                            href='/projects/value-chain'
-                            className='font-normal w-full max-w-[695px] col-span-2 transition-all duration-[500ms]'
-                          >
-                            Banco do Brasil&apos;s Value Chain: Reshaping Data Visualization and Enchanting Audience
-                          </a>
-
-                          {/* CTA Button (1 column) */}
-                          <button className='w-full justify-self-end text-right font-medium uppercase text-xs md720:text-base text-blue-300 hover:text-blue-500 transition-all duration-[400ms]'>
-                            Go to project →
-                          </button>
-                        </div>
-                      </div>
-          
-                  </div>
-
-                  {/* Project 02 */}
-                  <div className='flex flex-col bg-slate-950 rounded-2xl hover:bg-blue-950 transition-all duration-[500ms]  text-lg lg:text-3xl text-gray-100 hover:text-white hover:scale-[1.02] hover:shadow-2xl'>
-                    <a href='/projects/bb-event-transformation'>
-                      <Image src='/value-chain/images/Cover.png' className='w-full rounded-t-2xl aspect-[24/9] object-cover hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
-                    </a>
-
-                    <div className='flex flex-col flex-1 w-full px-10 py-8 rounded-b-2xl'>
-                        {/* Title and Button Container */}
-                        <div className='grid grid-cols-3 gap-4 items-center align-middle h-full'>
-                          {/* Project Title (Spanning 2 columns) */}
-                          <a
-                            href='/projects/value-chain'
-                            className='font-normal w-full max-w-[695px] col-span-2 transition-all duration-[500ms]'
-                          >
-                            Transforming Event Engagement with Customizable Solutions
-                          </a>
-
-                          {/* CTA Button (1 column) */}
-                          <button className='w-full justify-self-end text-right font-medium uppercase text-xs md720:text-base text-blue-300 hover:text-blue-500 transition-all duration-[400ms]'>
-                            Go to project →
-                          </button>
-                        </div>
-                      </div>
-          
-                  </div>
-
-                  {/* Project 03 */}
-                  <div className='flex flex-col bg-slate-950 rounded-2xl hover:bg-blue-950 transition-all duration-[500ms]  text-lg lg:text-3xl text-gray-100 hover:text-white hover:scale-[1.02] hover:shadow-2xl'>
-                    <a href='/projects/bb-event-transformation'>
-                      <Image src='/value-chain/images/Cover.png' className='w-full rounded-t-2xl aspect-[24/9] object-cover hover:opacity-80 transition-all duration-[500ms]' width={80} height={80} alt='Project Thumbnail' />
-                    </a>
-
-                    <div className='flex flex-col flex-1 w-full px-10 py-8 rounded-b-2xl'>
-                        {/* Title and Button Container */}
-                        <div className='grid grid-cols-3 gap-4 items-center align-middle h-full'>
-                          {/* Project Title (Spanning 2 columns) */}
-                          <a
-                            href='/projects/value-chain'
-                            className='font-normal w-full max-w-[695px] col-span-2 transition-all duration-[500ms]'
-                          >
-                            Transforming Event Engagement with Customizable Solutions
-                          </a>
-
-                          {/* CTA Button (1 column) */}
-                          <button className='w-full justify-self-end text-right font-medium uppercase text-xs md720:text-base text-blue-300 hover:text-blue-500 transition-all duration-[400ms]'>
-                            Go to project →
-                          </button>
-                        </div>
-                      </div>
-          
-                  </div>
-
-                  {/* Additional projects */}
-
-                </div>
-              </div>
-            </main>
-
-           {/* New Two-Row Section with Columns */}
-            <section className='flex flex-col w-full px-6 md720:gap-16 mt-16 md720:mt-32 max-920 md720:max-w-[1024px] md720:px-0'>
-
-                {/* First Row */}
-                <div className='flex flex-col md720:flex-row w-full gap-4 pt-8 border-t-[1px]'>
-                    {/* Left Column (1/3 on large screens) */}
-                    <div className='w-full md720:w-1/3  rounded-xl'>
-                        <h3 className='text-3xl font-semibold text-gray-900'>Nice to meet you.</h3>
-                    </div>
-
-                    {/* Right Column (2/3 on large screens) */}
-                    <div className='w-full md720:w-2/3 rounded-xl'>
-                        <p className='text-gray-900 text-2xl leading-relaxed'>
-                            I’m Ana Paula, a brazilian designer located in 📌 Curitiba - PR. I’m continuously looking for fun stuff to explore and work on, feel free to hit me up anytime.
-                        </p>
-                    </div>
-                </div>
-
-                {/* Let's Connect */}
-                <div className='flex flex-col md720:flex-row w-full gap-4 pt-4'>
-                    {/* Left Column (1/3 on large screens) */}
-                    <div className='w-full mt-9 md720:mt-0 md720:w-1/3 rounded-xl'>
-                        <h3 className='text-2xl font-semibold md720:font-normal text-gray-900'>Let's connect</h3>
-                    </div>
-
-                    {/* Right Column (2/3 on large screens) */}
-                    <div className='w-full md720:w-2/3 rounded-xl flex flex-col'>
-                        <div className='flex flex-row w-full py-6 border-t-[1px]'>
-                          <a target='_blank' href='https://www.linkedin.com/in/anapaulamoraesdsgn/' className='text-gray-900 text-lg leading-relaxed'>
-                              Linkedin
-                          </a>
-                        </div>
-                        <div className='flex flex-row w-full py-6 border-t-[1px] md720:border-y-[1px]'>
-                          <a target='_blank' href='https://instagram.com/paulamdmp' className='text-gray-900 text-lg leading-relaxed'>
-                              Instagram
-                          </a>
-                        </div>
-                        
-                    </div>
-
-                </div>
-                
-
-                {/* Copyrights */}
-                <div className='flex flex-col md720:flex-row w-full gap-4 pt-4 border-t-[1px] mt-10'>
-                    <div className='w-full rounded-xl pt-8 pb-12'>
-                        <p className='text-sm font-semibold text-gray-800'>© 2025 All rights reserved</p>
-                    </div>
-                </div>
-
-            </section>
-
+    <main className="min-h-screen">
+      {/* Header Section */}
+      <section className="max-w-4xl mx-auto px-6 pt-20 pb-16 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.2s_forwards]">
+        <div className="flex flex-col md:flex-row items-start justify-between gap-8">
+          <div className="max-w-[640px]">
+            <h2 className="font-medium text-default mb-2 xl:mb-4 text-lg">Hi, I&apos;m Ana! 👋</h2>
+            <h1
+              className={`leading-snug md:leading-snug font-normal text-default text-2xl transition-all duration-[800ms] mb-2 xl:mb-4 md:text-4xl`}
+            >
+              Inspired by craft and creativity & creating future-oriented experiences.
+            </h1>
+            <p className="text-xl font-normal text-soft mb-2 xl:mb-4 leading-relaxed md:text-lg">
+              I&apos;m a senior designer based in Brazil with 8+ years of experience in tech and digital products,
+              always exploring new grounds, ideas and taking on exciting projects.
+            </p>
           </div>
-          
+          <div className="flex-shrink-0">
+            <div className="w-16 h-16 rounded-full bg-gray-800 overflow-hidden">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ProfilePic-H504YnHVHyC7dn21jeSSLnpjzCEtQq.png"
+                alt="Ana Paula Moraes"
+                width={64}
+                height={64}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* Projects Section */}
+      <section className="max-w-4xl mx-auto px-6 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_0.6s_forwards] pb-36">
+        <div className="grid grid-rows-1 gap-8 md:gap-16">
+          {/* Project 1 - Data Visualization */}
+          <div className="project-block flex flex-col transition-all duration-500 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.0s_forwards]">
+            <div className="project-image-container flex bg-blue-100 dark:bg-blue-900/20 rounded-md md:rounded-xl">
+              <Image
+                src="/placeholder-2rj1q.png"
+                alt="Data Visualization Dashboard"
+                width={800}
+                height={500}
+                className="project-image hidden md:block w-full rounded-[8px] aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
+              />
+              <Image
+                src="/placeholder-2rj1q.png"
+                alt="Data Visualization Dashboard"
+                width={400}
+                height={300}
+                className="project-image md:hidden w-full rounded-[8px] aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
+              />
+            </div>
+            <div className="project-content flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
+              <div className="project-meta grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-normal">
+                <span className="project-year text-sm text-foreground">2024</span>
+                <span className="project-title w-full text-xl md:text-2xl text-foreground">
+                  Reshaping Data Visualization for Economic Activities
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 2 - Event Engagement */}
+          <div className="project-block flex flex-col transition-all duration-500 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.4s_forwards]">
+            <div className="project-image-container flex bg-green-100 dark:bg-green-900/20 rounded-md md:rounded-xl">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PersonalizacaoRoleta-Cover-R78UlxkwXe5nPguuwRFL9oBqx8momF.png"
+                alt="Event Engagement Platform"
+                width={800}
+                height={500}
+                className="project-image hidden md:block w-full rounded-[8px] aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
+              />
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PersonalizacaoRoleta-Cover-R78UlxkwXe5nPguuwRFL9oBqx8momF.png"
+                alt="Event Engagement Platform"
+                width={400}
+                height={300}
+                className="project-image md:hidden w-full rounded-[8px] aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
+              />
+            </div>
+            <div className="project-content flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
+              <div className="project-meta grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-normal">
+                <span className="project-year text-sm text-foreground">2024</span>
+                <span className="project-title w-full text-xl md:text-2xl text-foreground">
+                  Transforming Event Engagement with Customizable Solutions
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 3 - Brazilian Design */}
+          <div className="project-block flex flex-col transition-all duration-500 hover:scale-[1.02] opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_1.8s_forwards]">
+            <div className="project-image-container flex bg-orange-100 dark:bg-orange-900/20 rounded-md md:rounded-xl">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RBD21-Cover-kmuifYvCebHH6IzUNyqvLtNHOfN52o.png"
+                alt="Brazilian Design Mapping"
+                width={800}
+                height={500}
+                className="project-image hidden md:block w-full rounded-[8px] aspect-[16/10] object-cover hover:opacity-80 transition-all duration-500"
+              />
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/RBD21-Cover-kmuifYvCebHH6IzUNyqvLtNHOfN52o.png"
+                alt="Brazilian Design Mapping"
+                width={400}
+                height={300}
+                className="project-image md:hidden w-full rounded-[8px] aspect-[4/3] object-cover hover:opacity-80 transition-all duration-500"
+              />
+            </div>
+            <div className="project-content flex flex-col flex-1 w-full py-4 md:py-8 font-normal transition-all duration-500">
+              <div className="project-meta grid gap-1 md:gap-0 grid-rows-2 items-center h-full font-normal">
+                <span className="project-year text-sm text-foreground">2021</span>
+                <span className="project-title w-full text-xl md:text-2xl text-foreground">
+                  Mapping Brazilian Design in 2021
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="max-w-4xl mx-auto px-6 py-16 border-t-[1px] border-border border-b-0 border-r-0 border-l-0 pt-10 mb-10 opacity-0 translate-y-8 animate-[fadeInUp_0.8s_ease-out_2.2s_forwards]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-4">
+          {/* First Column - Heading */}
+          <div className="md:col-span-1 flex flex-col">
+            <h3 className="text-2xl font-semibold text-foreground mb-8">Nice to meet you.</h3>
+            <div className="w-full aspect-square overflow-hidden rounded-sm">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Profile_Img-tIfDdP9NpTCfv1Zlg0lDSQAVku9jgn.png"
+                alt="Ana Paula Moraes"
+                width={400}
+                height={400}
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
+          </div>
+
+          {/* Second Column - Paragraph Content */}
+          <div className="md:col-span-2 flex items-center">
+            <div className="w-full">
+              <p className="text-soft leading-relaxed mb-4">
+                I'm a multidisciplinar designer, passionate for crafting and prototyping - and arts and manufacturing.
+                My journey with design started when I was only 11, making tutorials for photoshop in youtube and forums
+                as a hobby.
+              </p>
+              <p className="text-soft leading-relaxed mb-4">
+                Since then I've built a background in graphic design, front-end, back-end, 3d modeling, dataviz, game
+                dev and UX/UI design, always caring about processes and details that make all the difference.
+              </p>
+              <p className="text-soft leading-relaxed mb-4">
+                My next adventure is taking woodworking/carpentry classes to bring to life some of my design vision -
+                but on furnitures. If you think we'd make a great team, send me a message!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Let's Connect */}
+        <div className="flex flex-col md:flex-row w-full pt-4 gap-4">
+          {/* Left Column (1/3 on large screens) */}
+          <div className="w-full mt-9 md:mt-0 md:w-1/3 rounded-xl">
+            <h3 className="font-semibold md:font-normal text-foreground text-xl">Let&apos;s connect</h3>
+          </div>
+
+          {/* Right Column (2/3 on large screens) */}
+          <div className="w-full md:w-2/3 rounded-xl flex flex-col">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/anapaulamoraesdsgn/"
+              className="flex flex-row w-full py-4 md:py-6 border-t-[1px] border-border justify-between items-center text-default text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
+              rel="noreferrer"
+            >
+              <span>Linkedin</span>
+              <SquareArrowOutUpRight className="w-5 h-5" />
+            </a>
+            <a
+              target="_blank"
+              href="https://instagram.com/paulamdmp"
+              className="flex flex-row w-full py-4 md:py-6 border-t-[1px] md:border-y-[1px] border-border justify-between items-center text-default text-base md:text-lg leading-relaxed hover:text-muted-foreground transition"
+              rel="noreferrer"
+            >
+              <span>Instagram</span>
+              <SquareArrowOutUpRight className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="max-w-4xl mx-auto px-6 py-8 border-t border-border">
+        <p className="text-sm text-muted-foreground">© 2024 All rights reserved</p>
+      </footer>
+    </main>
   )
 }

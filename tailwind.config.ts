@@ -1,24 +1,33 @@
 import type { Config } from 'tailwindcss';
-
 import { fontFamily } from 'tailwindcss/defaultTheme';
+import { designTokens } from "./src/lib/design-system";
 
 const config: Config = {
   content: [
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}', // your components
+    './src/lib/**/*.{js,ts,jsx,tsx,mdx}',    
   ],
   theme: {
     extend: {
       fontFamily: {
-        libreBaskerville: ['var(--font-libre-baskerville)', ...fontFamily.serif],
-        dmSerifText: ['var(--font-dm-serif-text)', ...fontFamily.serif],
-        frankRuhlLibre: ['var(--font-frank-ruhl-libre)', ...fontFamily.serif],
-        caladea: ['var(--font-caladea)', ...fontFamily.serif],
         dmSans: ['var(--font-dmSans)', ...fontFamily.serif],
-        shrikhand: ['var(--font-shrikhand)', ...fontFamily.sans], // Shrikhand é mais decorativa, mas pode ser ajustada
+      },
+
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        border: "var(--border)",
+        accent: "var(--accent)",
+      },
+
+      textColor: {
+        soft: "var(--text-soft)",
+        default: "var(--text-default)",
       },
 
       screens: {
-        'md720': '720px', // Adding custom breakpoint
+        'md720': '720px',
       },
 
       backgroundImage: {
@@ -26,8 +35,20 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',*/
       },
+
+      keyframes: {
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(2rem)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+
+      animation: {
+        fadeInUp: 'fadeInUp 0.8s ease-out forwards',
+      },
     },
   },
   plugins: [],
 }
-export default config
+
+export default config;
